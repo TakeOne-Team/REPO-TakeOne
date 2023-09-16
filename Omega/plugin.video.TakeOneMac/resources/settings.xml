@@ -1,0 +1,16 @@
+ 
+<settings>
+   <category label="Portal-MAC">
+    <setting label="Portal" id="portal" type="text" visible="true" value="" />
+    <setting label="MAC" id="mac" type="text" visible="true" value="" />
+   </category>
+   <category label="Mac Pastebin">
+    <setting id="escogido" type="text" visible="false" value="]1-Personal" />    
+    <setting label="User Pastebin" id="userp" type="text" visible="true" value="AsgardSistem" default="AsgardSistem"/>
+    <setting id="mac2" type="text" visible="false" value="00:1a:79:6c:43:86" />
+    <setting id="portal2" type="text" visible="false" value="http://portal.wag-iptv.de:8080/" />
+    <setting label="Salvar favoritos" id="favs" type="bool" visible="true" value="true" />
+    <setting label="Canal pr0n:" id="pr0n" type="bool" visible="true" value="true" />
+    <setting id="ser" type="text" visible="false" value="Kg4mJV4Z" />
+   </category>
+</settings>
