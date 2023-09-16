@@ -1,0 +1,206 @@
+<addons>
+<addon id="plugin.video.TakeOne" name="[B][COLOR blue] TakeOne[/COLOR][/B]" version="3.0.2" provider-name="[B][COLOR yellow]TEAM[/COLOR] [COLOR blue] TakeOne[/COLOR][/B]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+
+<extension point="xbmc.addon.repository" name="TakeOne REPO">
+	<info compressed="false"></info>
+	<checksum></checksum>
+    <datadir zip="true"></datadir>
+</extension>
+
+<extension point="xbmc.addon.metadata">
+    <summary>[COLOR white][B]FILMES, SERIES EM FHD, HD, SD, DOCUMENTARIOS, DESENHOS, ETC, DUBLADOS e Legendados. O MELHOR ADDON DE FILMES E SERIES PRO SEU KODI!, AQUI VOCÊ ENCONTRA TUDO, GARANTIDO!. Se Não ACHA FALA COM NOSSO TEAM.[/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]TakeOne É Addon Do Kodi, Onde Organizamos Os Conteudos e Upamos Para Nosso Servidor Privado, Então Se Quiser Copiar Deixa Os Creditos... Ateciosamente Team TakeOne[/B][/COLOR]</description>
+    <disclaimer lang="en">[COLOR yellow][B]O autor hospedar o conteúdo exibido por este complemento. TakeOne tem nenhuma afiliação com o provedor de conteúdo, somente é responsável por coletar os melhores filmes da Internet, categorização e otimizá-los, de modo a que esta ao alcance de seus clientes. tão fácil e descomplicada.[/B][/COLOR]</disclaimer>
+	<platform>all</platform>
+    <assets>
+	<icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/screenshots/01.jpg</screenshot>
+    <screenshot>resources/screenshots/02.jpg</screenshot>
+    <screenshot>resources/screenshots/03.jpg</screenshot>
+
+    </assets>
+	<news>
+v3.0.0.matrix.1
+- TakeOne
+	</news>	
+</extension>
+</addon>
+<addon id="plugin.video.TakeOne.TV" name="[B][COLOR orange]TakeOne.TV[/COLOR][/B]" version="3.0.5" provider-name="TEAM TakeOne">
+	<requires>
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests-cache"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.dateutil" optional="true" />
+		<import addon="script.module.resolveurl" optional="true"/>
+		<import addon="script.module.urlresolver" optional="true"/>
+		<import addon="script.module.cloudscraper" optional="true"/>
+		<import addon="script.module.inputstreamhelper" optional="true"/>
+		<import addon="script.module.slproxy" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR white]ADDON [/COLOR][COLOR orange]TakeOne.TV[/COLOR]</summary>
+		<description>[COLOR lime]ADDON oficial[/COLOR] [COLOR orange]TakeOne.TV[/COLOR] - Proibido reprodução total ou parcial sem prévia autorização
+[COLOR white]Addon [/COLOR][COLOR orange]TakeOne.TV[/COLOR] é de uso gratuito!![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/media/01.jpg</screenshot>
+			<screenshot>resources/media/02.jpg</screenshot>
+			<screenshot>resources/media/03.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+<addon
+	id="plugin.video.TakeOneMac" version="1.70" name="[COLOR white]Take One Mac[/COLOR]" provider-name="Take One Team">
+<requires>
+		<import addon="script.module.resolveurl"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.six"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="es">Complemento pessoal para IPTV</summary>
+		<description lang="es">Este complemento fornece IPTV apenas para uso pessoal e privado</description>
+		<website>https://github.com/</website>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="es">O autor deste addon não se responsabiliza pelo uso dele</disclaimer>
+	<assets>
+		<icon>icon.png</icon>  
+		<fanart>fanart.jpg</fanart>
+		</assets>
+		<language>en</language>
+	</extension>
+	
+</addon>
+<addon id="plugin.program.openwizard" name="[COLOR limegreen]Open[/COLOR]Wizard" version="2.0.3.1" provider-name="drinfernoo, slamious">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR limegreen]Open[/COLOR]Wizard</summary>
+        <description lang="en">[COLOR limegreen]Open[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
+        <news>
+2.0.3
+ - Don't show previous version builds in Matrix
+
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.video.torrest" name="Torrest" provider-name="i96751414" version="0.0.16">
+    <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="script.module.routing" version="0.2.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/i96751414/plugin.video.torrest/blob/master/LICENSE</license>
+        <source>https://github.com/i96751414/plugin.video.torrest</source>
+        <summary lang="en">Torrest on Kodi</summary>
+        <description lang="en">Torrest is a service with a rest API which allows torrent streaming.</description>
+        <news>
+- Update for torrest 0.0.4 (https://github.com/i96751414/torrest-cpp/releases/tag/v0.0.4)
+- Allow forcing torrest binary
+- Allow custom user-agent definitions
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>resources/screenshots/screenshot-1.jpg</screenshot>
+            <screenshot>resources/screenshots/screenshot-2.jpg</screenshot>
+            <screenshot>resources/screenshots/screenshot-3.jpg</screenshot>
+            <screenshot>resources/screenshots/screenshot-4.jpg</screenshot>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.103" provider-name="gujal">
+    <requires>
+        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="plugin.googledrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi, απλοποίηση της ανάπτυξης των προσθέτων που χρησιμοποιούν πολλαπλούς εξυπηρετητές για υλικό βίντεο</description>
+        <description lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+        <disclaimer lang="en_GB">This script only resolves video content from legitimate file lockers without prejudice. If this script is being used by 3rd parties to resolve content that you feel infringes upon your Intellectual Property then please take your complaints to the actual website or developer linking to such content and not here. This script in no way searches for any content whatsoever.</disclaimer>
+        <disclaimer lang="el_GR">Το ανωτέρο σενάριο το μόνο που κάνει είναι να επιλύει οπτικοακουστικό περιεχόμενο από νόμιμες πηγές χωρίς προκατάληψη. Εάν το ανωτέρο σενάριο χρησιμοποιηθεί από τρίτους ώστε να επιλύσει περιεχόμενο το οποίο σας προκαλεί αντίδραση ότι παραβιάζει την πνευματική σας ιδιοκτησία παρακαλώ μεταφέρετε τα παραπονά σας στον ιστότοπο τον οποίο βρίσκεται το εν λόγω περιεχόμενο η τον δημιουργό ο οποίος πραγματοποιεί την σύνδεση και όχι εδω. Το σενάριο αυτό ουδεμία περίπτωση πραγματοποιεί αναζήτηση περιεχομένου.</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.video.Live.Streaming" name="[B][COLOR mediumslateblue]Live Streaming[/B][/COLOR]" version="3.1.3" provider-name="[B][COLOR mediumslateblue]TakeOne Team[/B][/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR mediumslateblue]Um complemento de IPTV escrito para funcionar com XC e XCUI para Kodi [/COLOR] </summary>
+	<language>en</language>
+	<description lang="en">[COLOR white]ADDON oficial TakeOne Team[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+</addons>
