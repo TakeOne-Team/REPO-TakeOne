@@ -22,22 +22,4 @@ addon_name="[B][COLOR white]Jellyfin[/COLOR] +[COLOR blue] TakeOne[/COLOR][/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/resources/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/addon.xml"
 
-addon_name="[COLOR pink]DORAMAS[/COLOR]"
-addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.doramasplus/icon.jpg"
-addon_xml="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.doramasplus/addon.xml"
 
-addon_name="[COLOR lime]SHOW DE BOLA[/COLOR]"
-addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.showdebola/icon.png"
-addon_xml="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.showdebola/addon.xml"
-
-addon_name="[COLOR violet]THUNDER[/COLOR]"
-addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.thethunder/icon.png"
-addon_xml="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.thethunder/addon.xml"
-
-addon_name="Tube Music"
-addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.tubemusic/icon.png"
-addon_xml="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.tubemusic/addon.xml"
-
-addon_name="Estúdio KAZA FM"
-addon_image="https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/matrix/plugin.audio.estudioKazaFM/icon.png"
-addon_xml="https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/matrix/plugin.audio.estudioKazaFM/addon.xml"
