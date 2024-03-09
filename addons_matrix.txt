@@ -20,7 +20,7 @@ addon_xml="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.OnePl
 
 addon_name="[B]TakeOne [COLOR yellow]jellyfin[/COLOR][/B]"
 addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.animesplay.matrix/icon.png"
-addon_xml="https://ams1.mirror.jellyfin.org/files/client/kodi/py3/plugin.video.jellyfin/addon.xml"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/addon.xml"
 
 addon_name="[COLOR pink]DORAMAS[/COLOR]"
 addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.doramasplus/icon.jpg"
