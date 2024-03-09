@@ -10,9 +10,9 @@ addon_name="f4mTester"
 addon_image="https://bitbucket.org/zoreu123/br.repo/raw/master/matrix/plugin.video.f4mTester/icon.png"
 addon_xml="https://bitbucket.org/zoreu123/br.repo/raw/master/matrix/plugin.video.f4mTester/addon.xml"
 
-addon_name="[B][COLOR white]Live Streaming[/COLOR][/B]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Live.Streaming/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Live.Streaming/addon.xml"
+addon_name="[B][COLOR white]TAKE ONE TV[/COLOR][/B]"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOne.TV/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOne.TV/addon.xml"
 
 addon_name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]"
 addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.OnePlay.Matrix/icon.png"
