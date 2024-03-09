@@ -6,9 +6,13 @@ addon_name="Elementum [COLOR FFFF6B00]Burst[/COLOR]"
 addon_image="https://github.com/elgatito/script.elementum.burst/raw/master/icon.png"
 addon_xml="https://github.com/elgatito/script.elementum.burst/raw/master/addon.xml"
 
-addon_name="script.module.resolveurl"
+addon_name="script.module.resolveurl-5.1.128"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/addon.xml"
+
+addon_name="plugin.video.resolverurl_player-1.0.1"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/addon.xml"
 
 addon_name="[B][COLOR white]TAKE ONE TV[/COLOR][/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOne.TV/icon.png"
