@@ -1,8 +1,8 @@
-addon_name="Elementum"
+addon_name="[B]Elementum[/B]"
 addon_image="https://github.com/elgatito/plugin.video.elementum/raw/master/icon.png"
 addon_xml="https://github.com/elgatito/plugin.video.elementum/raw/master/addon.xml"
 
-addon_name="Elementum [COLOR FFFF6B00]Burst[/COLOR]"
+addon_name="[B]Elementum Burst[/B]"
 addon_image="https://github.com/elgatito/script.elementum.burst/raw/master/icon.png"
 addon_xml="https://github.com/elgatito/script.elementum.burst/raw/master/addon.xml"
 
@@ -18,9 +18,9 @@ addon_name="[B]plugin.video.resolverurl_player-1.0.1[/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/addon.xml"
 
-addon_name="[B][COLOR white]TAKE ONE TV[/COLOR][/B]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOne.TV/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOne.TV/addon.xml"
+addon_name="[B]Pobre TV[/B]"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Pobre.Tv/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Pobre.Tv/addon.xml"
 
 addon_name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]"
 addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.OnePlay.Matrix/icon.png"
