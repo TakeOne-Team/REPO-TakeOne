@@ -18,9 +18,9 @@ addon_name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]"
 addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.OnePlay.Matrix/icon.png"
 addon_xml="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.OnePlay.Matrix/addon.xml"
 
-addon_name="[B]Animes [COLOR yellow]Play[/COLOR][/B]"
+addon_name="[B]TakeOne [COLOR yellow]jellyfin[/COLOR][/B]"
 addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.animesplay.matrix/icon.png"
-addon_xml="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.animesplay.matrix/addon.xml"
+addon_xml="https://ams1.mirror.jellyfin.org/files/client/kodi/py3/plugin.video.jellyfin/addon.xml"
 
 addon_name="[COLOR pink]DORAMAS[/COLOR]"
 addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.doramasplus/icon.jpg"
