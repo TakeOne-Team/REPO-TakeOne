@@ -11,3 +11,10 @@ iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja
 fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/fanart.jpg"
 description="Addon Aprovado pela Kodish Team"
 skin_id="sxxx"
+
+name="plugin.video.resolverurl_player"
+url="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/plugin.video.resolverurl_player-1.0.1.zip"
+iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/icon.png"
+fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/fanart.jpg"
+description="Addon Aprovado pela Kodish Team"
+skin_id="sxxx"
