@@ -28,7 +28,7 @@ addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omeg
 
 addon_name="[B]OmegaPlay[/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/addon.xml/addon.xml"
+addon_zip="https://github.com/TakeOne-Team/REPO-TakeOne/blob/main/Omega/plugin.video.OmegaPlay/plugin.video.OmegaPlay-1.0.0.zip"
 
 addon_name="[B][COLOR white]Jellyfin[/COLOR] +[COLOR blue] TakeOne[/COLOR][/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/resources/icon.png"
