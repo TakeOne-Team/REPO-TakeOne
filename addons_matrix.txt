@@ -6,6 +6,10 @@ addon_name="[B]Elementum Burst[/B]"
 addon_image="https://github.com/elgatito/script.elementum.burst/raw/master/icon.png"
 addon_xml="https://github.com/elgatito/script.elementum.burst/raw/master/addon.xml"
 
+addon_name="[B]plugin.video.f4mTester-4.1.8[/B]"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.f4mTester/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.f4mTester/addon.xml"
+
 addon_name="[B]script.module.kodi-helper-0.0.4[/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/addon.xml"
