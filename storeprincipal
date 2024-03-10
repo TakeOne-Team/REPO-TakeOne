@@ -25,3 +25,10 @@ iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omeg
 fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Live.Streaming/fanart.jpeg"
 description="Um complemento de IPTV escrito para funcionar com XC e XCUI para Kodi"
 skin_id="wwwww"
+
+name="[B]jellyfin + TakeOne[/B]"
+url="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/plugin.video.jellyfin-0.7.12+py3.zip"
+iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/resources/icon.png"
+fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/resources/fanart.jpeg"
+description="jellyfin + TakeOne"
+skin_id="wwwww"
