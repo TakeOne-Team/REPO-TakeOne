@@ -13,9 +13,9 @@ description="Addon Aprovado pela TakeOne Team"
 skin_id="wwwww"
 
 name="[B]TakeOneMac[/B]"
-url="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOneMac.zip"
-iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Image/TakeOneMac.icon.png"
-fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Image/TakeOneMac.fanart.jpeg"
+url="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOneMac/plugin.video.TakeOneMac.zip"
+iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOneMac/icon.png"
+fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOneMac/fanart.jpeg"
 description="Addon Aprovado pela TakeOne Team"
 skin_id="wwwww"
 
