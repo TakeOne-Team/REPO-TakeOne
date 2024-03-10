@@ -18,3 +18,10 @@ iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja
 fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/fanart.jpg"
 description="Addon Aprovado pela Kodish Team"
 skin_id="sxxx"
+
+name="plugin.video.f4mTeste"
+url="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.f4mTester/plugin.video.f4mTester-4.1.8.zip"
+iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.f4mTester/icon.png"
+fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.f4mTester/fanart.jpg"
+description="Addon Aprovado pela Kodish Team"
+skin_id="sxxx"
