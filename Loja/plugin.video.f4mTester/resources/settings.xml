@@ -1,5 +1,0 @@
-<settings>
-<category label="IPTV">
-	<setting label="LISTA PVR" id="pvr_url" type="text" default=""/>
-</category>
-</settings>
