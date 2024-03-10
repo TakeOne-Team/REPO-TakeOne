@@ -22,7 +22,7 @@ addon_name="[B]Pobre TV[/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Pobre.Tv/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Pobre.Tv/addon.xml"
 
-addon_name="[B]OmegaPlay[/B][/COLOR]"
+addon_name="[B]OmegaPlay[/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/addon.xml/addon.xml"
 
