@@ -22,9 +22,9 @@ addon_name="[B]Pobre TV[/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Pobre.Tv/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Pobre.Tv/addon.xml"
 
-addon_name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]"
-addon_image="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.OnePlay.Matrix/icon.png"
-addon_xml="https://github.com/zoreu/OneRepo/raw/master/matrix/plugin.video.OnePlay.Matrix/addon.xml"
+addon_name="[B]OmegaPlay[/B][/COLOR]"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/addon.xml/addon.xml"
 
 addon_name="[B][COLOR white]Jellyfin[/COLOR] +[COLOR blue] TakeOne[/COLOR][/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/resources/icon.png"
