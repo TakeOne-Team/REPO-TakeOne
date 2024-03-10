@@ -18,3 +18,10 @@ iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Imag
 fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Image/TakeOneMac.fanart.jpeg"
 description="Addon Aprovado pela TakeOne Team"
 skin_id="wwwww"
+
+name="[B]Live Streaming[/B]"
+url="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Live.Streaming/plugin.video.Live.Streaming.zip"
+iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Live.Streaming/icon.png"
+fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Live.Streaming/fanart.jpeg"
+description="Um complemento de IPTV escrito para funcionar \nA com XC e XCUI para Kodi"
+skin_id="wwwww"
