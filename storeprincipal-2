@@ -53,3 +53,17 @@ iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja
 fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.torrest/fanart.jpg"
 description="Addon Versão 0.0.16"
 skin_id="sxxx"
+
+name="plugin.video.elementum"
+url="https://github.com/elgatito/plugin.video.elementum/releases/download/v0.1.99/plugin.video.elementum-0.1.99.zip"
+iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.elementum/icon.png"
+fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.elementum/fanart.jpg"
+description="Addon Versão 0.1.99"
+skin_id="sxxx"
+
+name="script.elementum.burst"
+url="https://github.com/elgatito/script.elementum.burst/releases/download/v0.0.85/script.elementum.burst-0.0.85.zip"
+iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.elementum/icon1.png"
+fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.elementum/fanart1.jpg"
+description="Addon Versão 0.0.85"
+skin_id="sxxx"
