@@ -46,3 +46,10 @@ iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja
 fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizard/fanart.jpg"
 description="Addon Versão 4.0"
 skin_id="sxxx"
+
+name="plugin.video.torrest"
+url="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.torrest/plugin.video.torrest-0.0.16.zip"
+iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.torrest/icon.png"
+fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.torrest/fanart.jpg"
+description="Addon Versão 0.0.16"
+skin_id="sxxx"
