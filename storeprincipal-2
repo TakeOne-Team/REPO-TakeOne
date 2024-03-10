@@ -25,3 +25,10 @@ iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja
 fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.f4mTester/fanart.jpg"
 description="Addon Atualizado Versão 4.1.9"
 skin_id="sxxx"
+
+name="plugin.program.TakeOne.Wizard"
+url="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizard/plugin.program.TakeOne.Wizard.zip"
+iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizard/icon.png"
+fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizard/fanart.jpg"
+description="Addon Atualizado Versão 4.0"
+skin_id="sxxx"
