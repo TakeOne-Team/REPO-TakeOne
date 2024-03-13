@@ -10,10 +10,14 @@ addon_name="KODI HELPER 0.0.4"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/addon.xml"
 
-addon_name="f4mTester 4.1.9"
+addon_name="F4mTester 4.1.9"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.f4mTester/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.f4mTester/addon.xml"
 
 addon_name="F4mProxy 4.0.9"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mProxy/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mProxy/addon.xml"
+
+addon_name="F4mTester 4.1.3"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mTester/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mTester/addon.xml"
