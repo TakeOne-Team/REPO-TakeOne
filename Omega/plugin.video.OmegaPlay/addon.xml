@@ -4,7 +4,9 @@
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
+    <import addon="script.module.kodi-six"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="plugin.video.resolverurl_player"/>
 </requires>  
 <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>video</provides>
@@ -14,8 +16,7 @@
 	<summary lang="pt">[COLOR mediumslateblue]Omega[/COLOR][COLOR yellow]Play[/COLOR]</summary>
 	<description lang="pt">[COLOR lime]Obrigado por usar este addon
 Não temos fins lucrativo mas para mantermos o Addon funcionando sua doação é importante seja qualquer valor para compensarmos nosso trabalho[/COLOR]</description>
-    <disclaimer lang="pt">[COLOR lime]Obrigado por usar este addon
-Não temos fins lucrativo mas para mantermos o Addon funcionando sua doação é importante seja qualquer valor para compensarmos nosso trabalho[/COLOR]</disclaimer>
+    <disclaimer lang="pt">[COLOR lime]Addon OmegaPlay é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR]</disclaimer>
     <platform>all</platform>
 	<assets>
        <icon>icon.png</icon>

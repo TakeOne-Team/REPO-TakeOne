@@ -1,1 +1,2801 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'==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'))
+# -*- coding: utf-8 -*-
+
+import sys
+try:
+    import cookielib
+except ImportError:
+    import http.cookiejar as cookielib
+from urllib import request as urllib2, parse as urllib
+import datetime
+from datetime import datetime
+import re
+import os
+import base64
+import codecs
+import xbmc
+import xbmcplugin
+import xbmcgui
+import xbmcaddon
+import xbmcvfs
+import traceback
+import time
+
+try:
+    import json
+except:
+    import simplejson as json
+
+
+##CONFIGURAÇÕES
+####  TITULO DO MENU  #################################################################
+title_menu = '[B][COLOR lime]----[/COLOR]OMEGA PLAY[COLOR lime]----[/COLOR][/B]'
+###  DESCRIÇÃO DO ADDON ###############################################################
+title_descricao = 'Addon só de filmes, Tem que instalar o (plugin.video.resolverurl_player)'
+
+####  LINK DO TITULO DE MENU  #########################################################
+## OBS: POR PADRÃO JÁ TEM UM MENU EM BRANCO PARA NÃO TER ERRO AO CLICAR ###############
+url_b64_title = ''
+#url_title = base64.b64decode(url_b64_title).decode('utf-8')
+url_title = ''
+
+
+##### PESQUISA - get.php
+#url_b64_pesquisa = ''
+#url_pesquisa = base64.b64decode(url_b64_pesquisa).decode('utf-8')
+url_pesquisa = 'http://teste.com/get.php'
+menu_pesquisar = '[COLOR white][B]PESQUISAR...[/B][/COLOR]'
+thumb_pesquisar = 'https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-vector-search-icon-png-image_320926.jpg'
+fanart_pesquisar = ''
+#### Descrição Pesquisa
+desc_pesquisa = 'Pesquise por filme'
+## MENU CONFIGURAÇÕES
+menu_configuracoes = '[B][COLOR white]CONFIGURAÇÕES[/COLOR][/B]'
+thumb_icon_config = 'https://i.imgur.com/8KUL2Rt.png'
+desc_configuracoes = 'Configure o addon Teste conforme desejado Desativando ou ativando as notificações e muito mais.'
+## FAVORITOS
+menu_favoritos = '[B][COLOR white]FAVORITOS[/COLOR][/B]'
+thumb_favoritos = 'https://i.imgur.com/q09OJRb.png'
+desc_favoritos = 'Adicione Itens aos Favoritos, pressionando OK do controle ou clicando o direito e selecionando Adicionar aos favoritos do Teste'
+
+#### MENU VIP ################################################################
+titulo_vip = '[COLOR white][B]ÁREA DE ACESSO[/B][/COLOR] [COLOR gold][B](VIP)[/B][/COLOR]'
+thumbnail_vip = 'https://i.imgur.com/5rgqF8K.png'
+fanart_vip = 'https://i.imgur.com/nTIPRcu.png'
+#### DESCRIÇÃO VIP ###########################################################
+vip_descricao = ''
+#### DIALOGO VIP - SERVIDOR DESATIVADO - CLICK ###################################
+vip_dialogo = 'No Kodi só canais pelo vip, use o app'
+##SERIVODR VIP
+url_server_vip = ''
+
+
+## MULTLINK
+## nome para $nome, padrão: lsname para $lsname
+playlist_command = 'texto'
+dialog_playlist = 'Selecione um item'
+
+
+# user agent - Padrão: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+useragent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+
+    
+
+#name - mensagem suporte
+addon_name = xbmcaddon.Addon().getAddonInfo('name')
+
+
+if sys.argv[1] == 'limparFavoritos':
+    Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
+    arquivo = os.path.join(Path, "favorites.dat")
+    exists = os.path.isfile(arquivo)
+    if exists:
+        try:
+            os.remove(arquivo)
+        except:
+            pass
+    xbmcgui.Dialog().ok('Sucesso', '[B][COLOR red]Favoritos limpo com sucesso![/COLOR][/B]')
+    xbmc.sleep(2000)
+    exit()
+
+
+if sys.argv[1] == 'SetPassword':
+    addonID = xbmcaddon.Addon().getAddonInfo('id')
+    addon_data_path = xbmcvfs.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
+    if os.path.exists(addon_data_path)==False:
+        os.mkdir(addon_data_path)
+    xbmc.sleep(4)
+    #Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
+    #arquivo = os.path.join(Path, "password.txt")
+    arquivo = os.path.join(addon_data_path, "password.txt")
+    exists = os.path.isfile(arquivo)
+    keyboard = xbmcaddon.Addon().getSetting("keyboard")
+    if exists == False:
+        password = '0069'
+        p_encoded = base64.b64encode(password.encode()).decode('utf-8')
+        p_file1 = open(arquivo,'w')
+        p_file1.write(p_encoded)
+        p_file1.close()
+        xbmc.sleep(4)
+        p_file = open(arquivo,'r+')
+        p_file_read = p_file.read()
+        p_file_b64_decode = base64.b64decode(p_file_read).decode('utf-8')
+        dialog = xbmcgui.Dialog()
+        if int(keyboard) == 0:
+            ps = dialog.numeric(0, 'Insira a senha atual:')
+        else:
+            ps = dialog.input('Insira a senha atual:', option=xbmcgui.ALPHANUM_HIDE_INPUT)
+        if ps == p_file_b64_decode:
+            if int(keyboard) == 0:
+                ps2 = dialog.numeric(0, 'Insira a nova senha:')
+            else:
+                ps2 = dialog.input('Insira a senha atual:', option=xbmcgui.ALPHANUM_HIDE_INPUT)
+            if ps2 != '':
+                ps2_b64 = base64.b64encode(ps2.encode()).decode('utf-8')
+                p_file = open(arquivo,'w')
+                p_file.write(ps2_b64)
+                p_file.close()
+                xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','A Senha foi alterada com sucesso!')
+            else:
+                xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','Não foi possivel alterar a senha!')
+        else:
+            xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','Senha invalida!, se não alterou utilize a senha padrão')
+    else:
+        p_file = open(arquivo,'r+')
+        p_file_read = p_file.read()
+        p_file_b64_decode = base64.b64decode(p_file_read).decode('utf-8')
+        dialog = xbmcgui.Dialog()
+        if int(keyboard) == 0:
+            ps = dialog.numeric(0, 'Insira a senha atual:')
+        else:
+            ps = dialog.input('Insira a senha atual:', option=xbmcgui.ALPHANUM_HIDE_INPUT)
+        if ps == p_file_b64_decode:
+            if int(keyboard) == 0:
+                ps2 = dialog.numeric(0, 'Insira a nova senha:')
+            else:
+                ps2 = dialog.input('Insira a senha atual:', option=xbmcgui.ALPHANUM_HIDE_INPUT)
+            if ps2 != '':
+                ps2_b64 = base64.b64encode(ps2.encode()).decode('utf-8')
+                p_file = open(arquivo,'w')
+                p_file.write(ps2_b64)
+                p_file.close()
+                xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','A Senha foi alterada com sucesso!')
+            else:
+                xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','Não foi possivel alterar a senha!')
+        else:
+            xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','Senha invalida!, se não alterou utilize a senha padrão')
+    exit()
+
+
+
+addon_handle = int(sys.argv[1])
+__addon__ = xbmcaddon.Addon()
+addon = __addon__
+__addonname__ = __addon__.getAddonInfo('name')
+__icon__ = __addon__.getAddonInfo('icon')
+addon_version = __addon__.getAddonInfo('version')
+try:
+    profile = xbmcvfs.translatePath(__addon__.getAddonInfo('profile').decode('utf-8'))
+except:
+    profile = xbmcvfs.translatePath(__addon__.getAddonInfo('profile'))
+try:
+    home = xbmcvfs.translatePath(__addon__.getAddonInfo('path').decode('utf-8'))
+except:
+    home = xbmcvfs.translatePath(__addon__.getAddonInfo('path'))
+favorites = os.path.join(profile, 'favorites.dat')
+favoritos = xbmcaddon.Addon().getSetting("favoritos")
+
+
+if os.path.exists(favorites)==True:
+    FAV = open(favorites).read()
+else:
+    FAV = []
+
+
+def notify(message, timeShown=5000):
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)' % (__addonname__, message, timeShown, __icon__))
+
+def to_unicode(text, encoding='utf-8', errors='strict'):
+    """Force text to unicode"""
+    if isinstance(text, bytes):
+        return text.decode(encoding, errors=errors)
+    return text
+
+def get_search_string(heading='', message=''):
+    """Ask the user for a search string"""
+    search_string = None
+    keyboard = xbmc.Keyboard(message, heading)
+    keyboard.doModal()
+    if keyboard.isConfirmed():
+        search_string = to_unicode(keyboard.getText())
+    return search_string
+
+def getRequest(url, count):
+    proxy_mode = addon.getSetting('proxy')
+    if proxy_mode == 'true':
+        try:
+            import requests
+            import random
+            headers={'User-agent': useragent,
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'Content-Type': 'text/html'}
+            if int(count) > 0:
+                attempt = int(count)-1
+            else:
+                attempt = 0
+            #print('tentativa: '+str(attempt)+'')
+            ### https://proxyscrape.com/free-proxy-list
+            ##http
+            data_proxy1 = getRequest2('https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&country=BR&ssl=no&anonymity=all', '')
+            list1 = data_proxy1.splitlines()
+            total1 = len(list1)
+            number_http = random.randint(0,total1-1)
+            proxy_http = 'http://'+list1[number_http]
+            ##https
+            data_proxy2 = getRequest2('https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&country=BR&ssl=yes&anonymity=all', '')
+            list2 = data_proxy2.splitlines()
+            total2 = len(list2)
+            number_https = random.randint(0,total2-1)
+            proxy_https = 'https://'+list2[number_https]
+            #print(proxy_https)
+            proxyDict = {"http" : proxy_http, "https" : proxy_https}
+            req = requests.get(url, headers=headers, proxies=proxyDict)
+            req.encoding = 'utf-8'
+            #status = req.status_code
+            response = req.text
+            return response
+        except:
+            proxy_number = addon.getSetting('proxy_try')
+            if int(attempt) > 0:
+                limit = int(attempt)
+            elif int(count) == 1 and int(attempt) == 0:
+                limit = int(proxy_number)+1+1
+            if int(limit) > 1:
+                #print('ativar outro proxy')
+                data = getRequest(url, int(limit))
+                return data
+            else:
+                notify('[COLOR red]Erro ao utilizar o proxy ou servidor![/COLOR]')
+                response = ''
+                return response
+    else:
+        try:
+            try:
+                import urllib.request as urllib2
+            except ImportError:
+                import urllib2
+            request_headers = {
+            "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8,ru;q=0.7,de-DE;q=0.6,de;q=0.5,de-AT;q=0.4,de-CH;q=0.3,ja;q=0.2,zh-CN;q=0.1,zh;q=0.1,zh-TW;q=0.1,es;q=0.1,ar;q=0.1,en-GB;q=0.1,hi;q=0.1,cs;q=0.1,el;q=0.1,he;q=0.1,en-US;q=0.1",
+            "User-Agent": useragent,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+            }
+            request = urllib2.Request(url, headers=request_headers)
+            response = urllib2.urlopen(request).read().decode('utf-8')
+            return response
+        except urllib2.URLError as e:
+            if hasattr(e, 'code'):
+                xbmc.executebuiltin("XBMC.Notification(Falha, código de erro - "+str(e.code)+",10000,"+__icon__+")")    
+            elif hasattr(e, 'reason'):
+                xbmc.executebuiltin("XBMC.Notification(Falha, motivo - "+str(e.reason)+",10000,"+__icon__+")")
+            response = ''
+            return response
+
+
+
+def getRequest2(url,ref,userargent=False):
+    try:
+        if ref > '':
+            ref2 = ref
+        else:
+            ref2 = url
+        if userargent:
+            client_user = userargent
+        else:
+            client_user = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+        cj = cookielib.CookieJar()
+        opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
+        opener.addheaders=[('Accept-Language', 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'),('User-Agent', client_user),('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'), ('Referer', ref2)]
+        data = opener.open(url).read()
+        response = data.decode('utf-8')
+        return response
+    except:
+        pass
+
+def regex_get_all(text, start_with, end_with):
+    r = re.findall("(?i)(" + start_with + "[\S\s]+?" + end_with + ")", text)
+    return r
+
+
+
+def re_me(data, re_patten):
+    match = ''
+    m = re.search(re_patten, data)
+    if m != None:
+        match = m.group(1)
+    else:
+        match = ''
+    return match
+
+
+
+def resolve_data(url):
+    try:
+        data = getRequest(url, 1)
+        import gzip, binascii
+        try:
+            from StringIO import StringIO as BytesIO ## for Python 2
+        except ImportError:            
+            from io import BytesIO ## for Python 3
+        if 'Bolsonaro' in data:
+            data = data.split('Bolsonaro')
+            buf = BytesIO(binascii.unhexlify(data[0]))
+            f = gzip.GzipFile(fileobj=buf)
+            data = f.read()
+            data = data.decode('utf-8')
+    except:
+        data = getRequest(url, 1)        
+    return data
+
+def getData(url,fanart):
+    adult = xbmcaddon.Addon().getSetting("adult")
+    adult2 = xbmcaddon.Addon().getSetting("adult2")
+    uhdtv = addon.getSetting('uhdtv')
+    fhdtv = addon.getSetting('fhdtv')
+    hdtv = addon.getSetting('hdtv')
+    sdtv = addon.getSetting('sdtv')
+    filtrar = addon.getSetting('filtrar')
+    data = resolve_data(url)
+    if isinstance(data, (int, str, list)):
+        channels = re.compile('<channels>(.+?)</channels>',re.MULTILINE|re.DOTALL).findall(data)
+        channel = re.compile('<channel>(.*?)</channel>',re.MULTILINE|re.DOTALL).findall(data)
+        item = re.compile('<item>(.*?)</item>',re.MULTILINE|re.DOTALL).findall(data)
+        if len(channels) >0:
+            for channel in channel:
+                linkedUrl=''
+                lcount=0
+                try:
+                    linkedUrl = re.compile('<externallink>(.*?)</externallink>').findall(channel)[0]
+                    lcount=len(re.compile('<externallink>(.*?)</externallink>').findall(channel))
+                except: pass
+                
+                try:
+                    linkedUrl = base64.b32decode(linkedUrl[::-1]).decode('utf-8')
+                except:
+                    pass 
+                    
+
+                name = re.compile('<name>(.*?)</name>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                try:
+                    thumbnail = re.compile('<thumbnail>(.*?)</thumbnail>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                except:
+                    thumbnail = ''
+                try:
+                    fanart1 = re.compile('<fanart>(.*?)</fanart>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                except:
+                    fanart1 = ''
+
+                if not fanart1:
+                    if __addon__.getSetting('use_thumb') == "true":
+                        fanArt = thumbnail
+                    else:
+                        fanArt = fanart
+                else:
+                    fanArt = fanart1
+                if fanArt == None:
+                    #raise
+                    fanArt = ''
+
+                try:
+                    desc = re.compile('<info>(.*?)</info>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if desc == None:
+                        #raise
+                        desc = ''
+                except:
+                    desc = ''
+
+                try:
+                    genre = re.compile('<genre>(.*?)</genre>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if genre == None:
+                        #raise
+                        genre = ''
+                except:
+                    genre = ''
+
+                try:
+                    date = re.compile('<date>(.*?)</date>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if date == None:
+                        #raise
+                        date = ''
+                except:
+                    date = ''
+
+                try:
+                    credits = re.compile('<credits>(.*?)</credits>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if credits == None:
+                        #raise
+                        credits = ''
+                except:
+                    credits = ''
+
+                try:
+                    year = re.compile('<year>(.*?)</year>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if year == None:
+                        #raise
+                        year = ''
+                except:
+                    year = ''
+
+                try:
+                    director = re.compile('<director>(.*?)</director>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if director == None:
+                        #raise
+                        director = ''
+                except:
+                    director = ''
+
+                try:
+                    writer = re.compile('<writer>(.*?)</writer>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if writer == None:
+                        #raise
+                        writer = ''
+                except:
+                    writer = ''
+
+                try:
+                    duration = re.compile('<duration>(.*?)</duration>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if duration == None:
+                        #raise
+                        duration = ''
+                except:
+                    duration = ''
+
+                try:
+                    premiered = re.compile('<premiered>(.*?)</premiered>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if premiered == None:
+                        #raise
+                        premiered = ''
+                except:
+                    premiered = ''
+
+                try:
+                    studio = re.compile('<studio>(.*?)</studio>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if studio == None:
+                        #raise
+                        studio = ''
+                except:
+                    studio = ''
+
+                try:
+                    rate = re.compile('<rate>(.*?)</rate>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if rate == None:
+                        #raise
+                        rate = ''
+                except:
+                    rate = ''
+
+                try:
+                    originaltitle = re.compile('<originaltitle>(.*?)</originaltitle>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if originaltitle == None:
+                        #raise
+                        originaltitle = ''
+                except:
+                    originaltitle = ''
+
+                try:
+                    country = re.compile('<country>(.*?)</country>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if country == None:
+                        #raise
+                        country = ''
+                except:
+                    country = ''
+
+                try:
+                    rating = re.compile('<country>(.*?)</country>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if rating == None:
+                        #raise
+                        rating = ''
+                except:
+                    rating = ''
+
+                try:
+                    userrating = re.compile('<userrating>(.*?)</userrating>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if userrating == None:
+                        #raise
+                        userrating = ''
+                except:
+                    userrating = ''
+
+                try:
+                    votes = re.compile('<votes>(.*?)</votes>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if votes == None:
+                        #raise
+                        votes = ''
+                except:
+                    votes = ''
+
+                try:
+                    aired = re.compile('<aired>(.*?)</aired>',re.MULTILINE|re.DOTALL).findall(channel)[0]
+                    if aired == None:
+                        #raise
+                        aired = ''
+                except:
+                    aired = ''
+
+                try:
+                    if linkedUrl=='':
+                        #addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),2,thumbnail,fanArt,desc,genre,date,credits,True)
+                        #addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),2,thumbnail,fanArt,desc,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired)
+                        addDir(name.encode('utf-8', 'ignore'),'',1,thumbnail,fanArt,desc,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired)
+                    else:
+                        #print linkedUrl
+                        #addDir(name.encode('utf-8'),linkedUrl.encode('utf-8'),1,thumbnail,fanArt,desc,genre,date,None,'source')
+                        if adult == 'false' and re.search("ADULTOS",name,re.IGNORECASE) and name.find('(+18)') >=0:
+                            pass
+                        else:
+                            addDir(name.encode('utf-8', 'ignore'),linkedUrl,1,thumbnail,fanArt,desc,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired)
+                except:
+                    notify('[COLOR red]Erro ao Carregar os dados![/COLOR]')
+        elif re.search("#EXTM3U",data) or re.search("#EXTINF",data):
+            content = data.rstrip()
+            match = re.compile(r'#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)').findall(content)
+            for other,channel_name,stream_url in match:
+                if 'tvg-logo' in other:
+                    thumbnail = re_me(other,'tvg-logo=[\'"](.*?)[\'"]')
+                    if thumbnail:
+                        if thumbnail.startswith('http'):
+                            thumbnail = thumbnail
+                        #elif not addon.getSetting('logo-folderPath') == "":
+                        #    logo_url = addon.getSetting('logo-folderPath')
+                        #    thumbnail = logo_url + thumbnail
+
+                        else:
+                            thumbnail = ''
+                    else:
+                        thumbnail = ''
+                else:
+                    thumbnail = ''
+
+                if 'group-title' in other:
+                    cat = re_me(other,'group-title=[\'"](.*?)[\'"]')
+                else:
+                    cat = ''
+
+                try:
+                    #resolver_final = resolver(stream_url, channel_name, thumbnail)
+                    if uhdtv == 'false' and re.search("4K",channel_name):
+                        pass
+                    elif fhdtv == 'false' and re.search("FHD",channel_name):
+                        pass
+                    elif hdtv == 'false' and re.search("HD",channel_name) and not re.search("FHD",channel_name):
+                        pass
+                    elif sdtv == 'false' and re.search("SD",channel_name):
+                        pass
+                    elif sdtv == 'false' and not re.search("SD",channel_name) and not re.search("HD",channel_name) and not re.search("4K",channel_name):
+                        pass
+                    #Futebol
+                    elif int(filtrar) == 1 and re.search("Praia",channel_name,re.IGNORECASE):
+                        pass
+                    elif int(filtrar) == 1 and not re.search("SPORTV",channel_name,re.IGNORECASE) and not re.search("DAZN",channel_name,re.IGNORECASE) and not re.search("ESPN Brasil",channel_name,re.IGNORECASE) and not re.search("PREMIERE",channel_name,re.IGNORECASE) and not re.search("COPA",channel_name,re.IGNORECASE):
+                        pass
+                    #Esportes
+                    elif int(filtrar) == 2 and re.search("Praia",channel_name,re.IGNORECASE):
+                        pass
+                    elif int(filtrar) == 2 and not re.search("Band Sports",channel_name,re.IGNORECASE) and not re.search("Combate",channel_name,re.IGNORECASE) and not re.search("Fox Sports",channel_name,re.IGNORECASE) and not re.search("SPORTV",channel_name,re.IGNORECASE) and not re.search("DAZN",channel_name,re.IGNORECASE) and not re.search("ESPN",channel_name,re.IGNORECASE) and not re.search("PREMIERE",channel_name,re.IGNORECASE) and not re.search("COPA",channel_name,re.IGNORECASE):
+                        pass
+                    #Filmes e Series
+                    elif int(filtrar) == 3 and re.search("Sports",channel_name,re.IGNORECASE):
+                        pass
+                    elif int(filtrar) == 3 and re.search("XY Max",channel_name,re.IGNORECASE):
+                        pass
+                    elif int(filtrar) == 3 and not re.search("AMC",channel_name,re.IGNORECASE) and not re.search("Canal Brasil",channel_name,re.IGNORECASE) and not re.search("Cinemax",channel_name,re.IGNORECASE) and not re.search("HBO",channel_name,re.IGNORECASE) and not re.search("Max",channel_name,re.IGNORECASE) and not re.search("Megapix",channel_name,re.IGNORECASE) and not re.search("Paramount",channel_name,re.IGNORECASE) and not re.search("SPACE",channel_name,re.IGNORECASE) and not re.search("TCM",channel_name,re.IGNORECASE) and not re.search("Telecine Action",channel_name,re.IGNORECASE) and not re.search("TC Action",channel_name,re.IGNORECASE) and not re.search("Telecine Cult",channel_name,re.IGNORECASE) and not re.search("TC Cult",channel_name,re.IGNORECASE) and not re.search("TC Cult",channel_name,re.IGNORECASE) and not re.search("Telecine Fun",channel_name,re.IGNORECASE) and not re.search("TC Fun",channel_name,re.IGNORECASE) and not re.search("Telecine Pipoca",channel_name,re.IGNORECASE) and not re.search("TC Pipoca",channel_name,re.IGNORECASE) and not re.search("Telecine Premium",channel_name,re.IGNORECASE) and not re.search("TC Premium",channel_name,re.IGNORECASE) and not re.search("Telecine Touch",channel_name,re.IGNORECASE) and not re.search("TC Touch",channel_name,re.IGNORECASE) and not re.search("TNT",channel_name,re.IGNORECASE) and not re.search("A&E",channel_name,re.IGNORECASE) and not re.search("AXN",channel_name,re.IGNORECASE) and not re.search("AXN",channel_name,re.IGNORECASE) and not re.search("FOX",channel_name,re.IGNORECASE) and not re.search("FX",channel_name,re.IGNORECASE) and not re.search("SONY",channel_name,re.IGNORECASE) and not re.search("Studio Universal",channel_name,re.IGNORECASE) and not re.search("SyFy",channel_name,re.IGNORECASE) and not re.search("Universal Channel",channel_name,re.IGNORECASE) and not re.search("Universal TV",channel_name,re.IGNORECASE) and not re.search("Warner",channel_name,re.IGNORECASE):
+                        pass
+                    #Infantil
+                    elif int(filtrar) == 4 and re.search("FM",channel_name,re.IGNORECASE):
+                        pass
+                    elif int(filtrar) == 4 and not re.search("Baby TV",channel_name,re.IGNORECASE) and not re.search("BOOMERANG",channel_name,re.IGNORECASE) and not re.search("CARTOON NETWORK",channel_name,re.IGNORECASE) and not re.search("DISCOVERY KIDS",channel_name,re.IGNORECASE) and not re.search("DISNEY",channel_name,re.IGNORECASE) and not re.search("GLOOB",channel_name,re.IGNORECASE) and not re.search("NAT GEO KIDS",channel_name,re.IGNORECASE) and not re.search("NICKELODEON",channel_name,re.IGNORECASE) and not re.search("NICK JR",channel_name,re.IGNORECASE) and not re.search("PLAYKIDS",channel_name,re.IGNORECASE) and not re.search("TOONCAST",channel_name,re.IGNORECASE) and not re.search("ZOOMOO",channel_name,re.IGNORECASE):
+                        pass
+                    #Documentario
+                    elif int(filtrar) == 5  and re.search("Kids",channel_name,re.IGNORECASE):
+                        pass
+                    elif int(filtrar) == 5 and not re.search("Discovery",channel_name,re.IGNORECASE) and not re.search("H2 HD",channel_name,re.IGNORECASE) and not re.search("H2 SD",channel_name,re.IGNORECASE) and not re.search("H2 FHD",channel_name,re.IGNORECASE) and not re.search("History",channel_name,re.IGNORECASE) and not re.search("Nat Geo Wild",channel_name,re.IGNORECASE) and not re.search("National Geographic",channel_name,re.IGNORECASE):
+                        pass
+                    #Abertos
+                    elif int(filtrar) == 6 and re.search("Brasileirinhas",channel_name,re.IGNORECASE):
+                        pass
+                    elif int(filtrar) == 6 and re.search("News",channel_name,re.IGNORECASE) or int(filtrar) == 6 and re.search("Sat",channel_name,re.IGNORECASE) or int(filtrar) == 6 and re.search("FM",channel_name,re.IGNORECASE):
+                        pass
+                    elif int(filtrar) == 6 and not re.search("Globo",channel_name,re.IGNORECASE) and not re.search("RECORD",channel_name,re.IGNORECASE) and not re.search("RedeTV",channel_name,re.IGNORECASE) and not re.search("Rede Vida",channel_name,re.IGNORECASE) and not re.search("SBT",channel_name,re.IGNORECASE) and not re.search("TV Brasil",channel_name,re.IGNORECASE) and not re.search("TV Cultura",channel_name,re.IGNORECASE) and not re.search("TV Diario",channel_name,re.IGNORECASE) and not re.search("BAND",channel_name,re.IGNORECASE):
+                        pass
+                    #Reality show
+                    elif int(filtrar) == 7 and not re.search("BBB",channel_name,re.IGNORECASE) and not re.search("Big Brother Brasil",channel_name,re.IGNORECASE) and not re.search("A Fazenda",channel_name,re.IGNORECASE):
+                        pass
+                    #Noticias
+                    elif int(filtrar) == 8 and re.search("FM",channel_name,re.IGNORECASE):
+                        pass
+                    elif int(filtrar) == 8 and not re.search("CNN",channel_name,re.IGNORECASE) and not re.search("NEWS",channel_name,re.IGNORECASE):
+                        pass
+                    elif adult2 == 'false' and re.search("Adult",cat,re.IGNORECASE) or adult2 == 'false' and re.search("ADULT",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Blue Hustler",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("PlayBoy",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Redlight",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Sextreme",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("SexyHot",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Venus",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("AST TV",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("ASTTV",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("AST.TV",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("BRAZZERS",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("CANDY",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("CENTOXCENTO",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("DORCEL",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("EROXX",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("PASSION",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("PENTHOUSE",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("PINK-O",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("PINK O",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("PRIVATE",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("RUSNOCH",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("SCT",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("SEXT6SENSO",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("SHALUN TV",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("VIVID RED",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Porn",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("XY Plus",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("XY Mix",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("XY Mad",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("XXL",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Desire",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Bizarre",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Sexy HOT",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Reality Kings",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Prive TV",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Hustler TV",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Extasy",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Evil Angel",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Erox",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("DUSK",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Brazzers",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Brasileirinhas",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Pink Erotic",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Passion",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Passie",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Meiden Van Holland Hard",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Sext & Senso",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Super One",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Vivid TV",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Hustler HD",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("SCT",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Sex Ation",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Hot TV",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Hot HD",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("MILF",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("ANAL",channel_name,re.IGNORECASE) and not re.search("CANAL",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("PUSSY",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("ROCCO",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("BABES",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("BABIE",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("XY Max",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("TUSHY",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("BLACKED",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("FAKE TAXI",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("XXX",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("18",channel_name,re.IGNORECASE) or adult2 == 'false' and re.search("Porno",channel_name,re.IGNORECASE):
+                        pass
+                    elif re.search("Adult",cat,re.IGNORECASE) or re.search("ADULT",channel_name,re.IGNORECASE) or re.search("Blue Hustler",channel_name,re.IGNORECASE) or re.search("PlayBoy",channel_name,re.IGNORECASE) or re.search("Redlight",channel_name,re.IGNORECASE) or re.search("Sextreme",channel_name,re.IGNORECASE) or re.search("SexyHot",channel_name,re.IGNORECASE) or re.search("Venus",channel_name,re.IGNORECASE) or re.search("AST TV",channel_name,re.IGNORECASE) or re.search("ASTTV",channel_name,re.IGNORECASE) or re.search("AST.TV",channel_name,re.IGNORECASE) or re.search("BRAZZERS",channel_name,re.IGNORECASE) or re.search("CANDY",channel_name,re.IGNORECASE) or re.search("CENTOXCENTO",channel_name,re.IGNORECASE) or re.search("DORCEL",channel_name,re.IGNORECASE) or re.search("EROXX",channel_name,re.IGNORECASE) or re.search("PASSION",channel_name,re.IGNORECASE) or re.search("PENTHOUSE",channel_name,re.IGNORECASE) or re.search("PINK-O",channel_name,re.IGNORECASE) or re.search("PINK O",channel_name,re.IGNORECASE) or re.search("PRIVATE",channel_name,re.IGNORECASE) or re.search("RUSNOCH",channel_name,re.IGNORECASE) or re.search("SCT",channel_name,re.IGNORECASE) or re.search("SEXT6SENSO",channel_name,re.IGNORECASE) or re.search("SHALUN TV",channel_name,re.IGNORECASE) or re.search("VIVID RED",channel_name,re.IGNORECASE) or re.search("Porn",channel_name,re.IGNORECASE) or re.search("XY Plus",channel_name,re.IGNORECASE) or re.search("XY Mix",channel_name,re.IGNORECASE) or re.search("XY Mad",channel_name,re.IGNORECASE) or re.search("XXL",channel_name,re.IGNORECASE) or re.search("Desire",channel_name,re.IGNORECASE) or re.search("Bizarre",channel_name,re.IGNORECASE) or re.search("Sexy HOT",channel_name,re.IGNORECASE) or re.search("Reality Kings",channel_name,re.IGNORECASE) or re.search("Prive TV",channel_name,re.IGNORECASE) or re.search("Hustler TV",channel_name,re.IGNORECASE) or re.search("Extasy",channel_name,re.IGNORECASE) or re.search("Evil Angel",channel_name,re.IGNORECASE) or re.search("Erox",channel_name,re.IGNORECASE) or re.search("DUSK",channel_name,re.IGNORECASE) or re.search("Brazzers",channel_name,re.IGNORECASE) or re.search("Brasileirinhas",channel_name,re.IGNORECASE) or re.search("Pink Erotic",channel_name,re.IGNORECASE) or re.search("Passion",channel_name,re.IGNORECASE) or re.search("Passie",channel_name,re.IGNORECASE) or re.search("Meiden Van Holland Hard",channel_name,re.IGNORECASE) or re.search("Sext & Senso",channel_name,re.IGNORECASE) or re.search("Super One",channel_name,re.IGNORECASE) or re.search("Vivid TV",channel_name,re.IGNORECASE) or re.search("Hustler HD",channel_name,re.IGNORECASE) or re.search("SCT",channel_name,re.IGNORECASE) or re.search("Sex Ation",channel_name,re.IGNORECASE) or re.search("Hot TV",channel_name,re.IGNORECASE) or re.search("Hot HD",channel_name,re.IGNORECASE) or re.search("MILF",channel_name,re.IGNORECASE) or re.search("ANAL",channel_name,re.IGNORECASE) and not re.search("CANAL",channel_name,re.IGNORECASE) or re.search("PUSSY",channel_name,re.IGNORECASE) or re.search("ROCCO",channel_name,re.IGNORECASE) or re.search("BABES",channel_name,re.IGNORECASE) or re.search("BABIE",channel_name,re.IGNORECASE) or re.search("XY Max",channel_name,re.IGNORECASE) or re.search("TUSHY",channel_name,re.IGNORECASE) or re.search("FAKE TAXI",channel_name,re.IGNORECASE) or re.search("BLACKED",channel_name,re.IGNORECASE) or re.search("XXX",channel_name,re.IGNORECASE) or re.search("18",channel_name,re.IGNORECASE) or re.search("Porno",channel_name,re.IGNORECASE):
+                        addDir2(channel_name.encode('utf-8', 'ignore'),stream_url,10,'',thumbnail,'','','','','','','','','','','','','','','','','','',False)
+                    else:
+                        #addLink(name1.encode('utf-8', 'ignore'),resolver_final.encode('utf-8'),'',cleaname,thumbnail,'',desc1)
+                        addDir2(channel_name.encode('utf-8', 'ignore'),stream_url,18,'',thumbnail,'','','','','','','','','','','','','','','','','','',False)
+                except:
+                    #notify('[COLOR red]Erro ao Carregar os dados![/COLOR]')
+                    pass
+        else:
+            #getItems(soup('item'),fanart)
+            getItems(item,fanart)
+    else:
+        #parse_m3u(soup)
+        notify('[COLOR red]Erro ao Carregar os dados![/COLOR]')
+    if '<SetContent>' in data:
+        try:
+            content=re.findall('<SetContent>(.*?)<',data)[0]
+            xbmcplugin.setContent(addon_handle, str(content))
+        except:
+            xbmcplugin.setContent(addon_handle, 'movies')
+    else:
+        xbmcplugin.setContent(addon_handle, 'movies')
+
+    if '<SetViewMode>' in data:
+        try:
+            viewmode=re.findall('<SetViewMode>(.*?)<',data)[0]
+            xbmc.executebuiltin("Container.SetViewMode(%s)"%viewmode)
+            #print 'done setview',viewmode
+        except: pass
+
+def getItems(items,fanart):
+    use_thumb = addon.getSetting('use_thumb')
+    for item in items:
+        try:
+            name = re.compile('<title>(.*?)</title>',re.MULTILINE|re.DOTALL).findall(item)[0].replace(';','')
+            if name == None or name == '':
+                #raise
+                name = 'unknown?'
+        except:
+            name = ''
+
+        try:
+            thumbnail = re.compile('<thumbnail>(.*?)</thumbnail>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if thumbnail == None:
+                #raise
+                thumbnail = ''
+        except:
+            thumbnail = ''
+
+        try:
+            fanart1 = re.compile('<fanart>(.*?)</fanart>',re.MULTILINE|re.DOTALL).findall(item)[0]
+        except:
+            fanart1 = ''
+
+        if not fanart1:
+            if __addon__.getSetting('use_thumb') == "true":
+                fanArt = thumbnail
+            else:
+                fanArt = fanart
+        else:
+            fanArt = fanart1
+        if fanArt == None:
+            #raise
+            fanArt = ''
+
+        try:
+            desc = re.compile('<info>(.*?)</info>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if desc == None:
+                #raise
+                desc = ''
+        except:
+            desc = ''
+
+        try:
+            category = re.compile('<category>(.*?)</category>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if category == None:
+                #raise
+                category = ''
+        except:
+            category = ''
+
+        try:
+            subtitle1 = re.compile('<subtitle>(.*?)</subtitle>',re.MULTILINE|re.DOTALL).findall(item)
+            if len(subtitle1)>0:
+                subtitle = subtitle1[0]
+                subs = []
+                for sub in subtitle1:
+                    subs.append('<subtitle>'+sub+'</subtitle>')
+                #subtitle2 = subtitle1
+                subtitle2 = subs
+            else:
+                subtitle = ''
+                subtitle2 = ''
+        except:
+            subtitle = ''
+            subtitle2 = ''
+
+        try:
+            utube = re.compile('<utube>(.*?)</utube>',re.MULTILINE|re.DOTALL).findall(item)
+            if len(utube)>0:
+                utube = utube[0]
+            else:
+                utube = ''
+        except:
+            utube = ''
+
+        try:
+            utubelive = re.compile('<utubelive>(.*?)</utubelive>',re.MULTILINE|re.DOTALL).findall(item)
+            if len(utubelive)>0:
+                utubelive = utubelive[0]
+            else:
+                utubelive = ''
+        except:
+            utubelive = ''
+            
+        try:
+            dm = re.compile('<dm>(.*?)</dm>',re.MULTILINE|re.DOTALL).findall(item)
+            if len(dm)>0:
+                dm = dm[0]
+            else:
+                dm = ''
+        except:
+            dm = ''            
+
+        try:
+            jsonrpc = re.compile('<jsonrpc>(.*?)</jsonrpc>',re.MULTILINE|re.DOTALL).findall(item)
+            externallink = re.compile('<externallink>(.*?)</externallink>',re.MULTILINE|re.DOTALL).findall(item)
+            link = re.compile('<link>(.*?)</link>',re.MULTILINE|re.DOTALL).findall(item)
+            if len(jsonrpc)>0:
+                url = jsonrpc[0]
+                url2 = ''
+            elif len(externallink)>0:
+                url = externallink[0]
+                url2 = ''
+            elif len(link)>0:
+                try:
+                    url = link[0]
+                    mylinks = []
+                    for link in link:
+                        mylinks.append('<link>'+link+'</link>')
+                    #url2 = link
+                    url2 = mylinks
+                except:
+                    url = link[0]
+                    url2 = ''
+            else:
+                url = ''
+                url2 = ''
+        except:
+            url = ''
+            url2 = ''
+            
+        try:
+            regex = re.compile('<regex>(.*?)</regex>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(item)
+        except:
+            regex = ''
+        
+        if regex !=[] and regex !='' and regex !=None:    
+            regx = []
+            for r in regex:
+                regx.append('<regex>'+r+'</regex>')
+            regex = str(regx).replace('\\n', '\n').replace('\\r', '')
+        else:
+            regex = 'false'
+
+        try:
+            genre = re.compile('<genre>(.*?)</genre>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if genre == None:
+                #raise
+                genre = ''
+        except:
+            genre = ''
+
+        try:
+            date = re.compile('<date>(.*?)</date>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if date == None:
+                #raise
+                date = ''
+        except:
+            date = ''
+
+        try:
+            credits = re.compile('<credits>(.*?)</credits>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if credits == None:
+                #raise
+                credits = ''
+        except:
+            credits = ''
+
+        try:
+            year = re.compile('<year>(.*?)</year>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if year == None:
+                #raise
+                year = ''
+        except:
+            year = ''
+
+        try:
+            director = re.compile('<director>(.*?)</director>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if director == None:
+                #raise
+                director = ''
+        except:
+            director = ''
+
+        try:
+            writer = re.compile('<writer>(.*?)</writer>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if writer == None:
+                #raise
+                writer = ''
+        except:
+            writer = ''
+
+        try:
+            duration = re.compile('<duration>(.*?)</duration>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if duration == None:
+                #raise
+                duration = ''
+        except:
+            duration = ''
+
+        try:
+            premiered = re.compile('<premiered>(.*?)</premiered>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if premiered == None:
+                #raise
+                premiered = ''
+        except:
+            premiered = ''
+
+        try:
+            studio = re.compile('<studio>(.*?)</studio>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if studio == None:
+                #raise
+                studio = ''
+        except:
+            studio = ''
+
+        try:
+            rate = re.compile('<rate>(.*?)</rate>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if rate == None:
+                #raise
+                rate = ''
+        except:
+            rate = ''
+
+        try:
+            originaltitle = re.compile('<originaltitle>(.*?)</originaltitle>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if originaltitle == None:
+                #raise
+                originaltitle = ''
+        except:
+            originaltitle = ''
+
+        try:
+            country = re.compile('<country>(.*?)</country>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if country == None:
+                #raise
+                country = ''
+        except:
+            country = ''
+
+        try:
+            rating = re.compile('<rating>(.*?)</rating>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if rating == None:
+                #raise
+                rating = ''
+        except:
+            rating = ''
+
+        try:
+            userrating = re.compile('<userrating>(.*?)</userrating>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if userrating == None:
+                #raise
+                userrating = ''
+        except:
+            userrating = ''
+
+        try:
+            votes = re.compile('<votes>(.*?)</votes>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if votes == None:
+                #raise
+                votes = ''
+        except:
+            votes = ''
+
+        try:
+            aired = re.compile('<aired>(.*?)</aired>',re.MULTILINE|re.DOTALL).findall(item)[0]
+            if aired == None:
+                #raise
+                aired = ''
+        except:
+            aired = ''
+
+
+        try:
+            if name > '' and url == '' and not utube > '' and not utubelive > '' and not dm > '':
+                addLink(name.encode('utf-8', 'ignore'),'None','',thumbnail,fanArt,desc,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired)
+            elif name > '' and url == None and not utube > '' and not utubelive > '':
+                addLink(name.encode('utf-8', 'ignore'),'None','',thumbnail,fanArt,desc,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired)
+            elif category == 'Adult' and url.find('redecanais') >= 0 and url.find('m3u8') >= 0:
+                addDir2(name.encode('utf-8', 'ignore'),url,10,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+            elif category == 'Adult' and url.find('canaismax') >= 0:
+                addDir2(name.encode('utf-8', 'ignore'),url,10,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+            elif url.find('canaismax') >= 0 and url.find('page') >= 0:
+                addDir2(name.encode('utf-8', 'ignore'),url,16,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+            elif url.find('resolver') >= 0:
+                addDir2(name.encode('utf-8', 'ignore'),url,16,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)                
+            elif url.find('ultracine_page') >= 0 and not len(url2) >1:
+                addDir2(name.encode('utf-8', 'ignore'),url,16,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+            elif url.find('streamtape.com') >= 0 and not len(url2) >1:
+                addDir2(name.encode('utf-8', 'ignore'),url,16,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+            elif url.find('netcine2_page') >= 0 and not len(url2) >1:
+                addDir2(name.encode('utf-8', 'ignore'),url,16,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+            elif url.find('series_canaismax') >= 0 and not len(url2) >1:
+                addDir2(name.encode('utf-8', 'ignore'),url,16,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+            elif url.find('filmes_canaismax') >= 0 and not len(url2) >1:
+                addDir2(name.encode('utf-8', 'ignore'),url,16,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+            elif utube > '' and len(utube) == 11:
+                link_youtube = 'plugin://plugin.video.youtube/play/?video_id='+utube
+                addLink(name.encode('utf-8', 'ignore'), link_youtube,subtitle,thumbnail,fanArt,desc,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired)
+            elif utubelive > '' and len(utubelive) == 11:
+                link_live = 'https://www.youtube.com/watch?v='+utubelive
+                addDir2(name.encode('utf-8', 'ignore'),link_live,17,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+            elif dm > '' and len(dm) == 7:               
+                link_dm = 'plugin://plugin.video.dailymotion_com/?mode=playVideo&url='+dm
+                addLink(name.encode('utf-8', 'ignore'), link_dm,subtitle,thumbnail,fanArt,desc,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired)                
+            elif len(externallink)>0:
+                addDir(name.encode('utf-8', 'ignore'),resolver(url,regex),1,thumbnail,fanArt,desc,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired)
+            #Multilink
+            elif len(url2) >1 and len(subtitle2) >1 and re.search(playlist_command,url,re.IGNORECASE):
+                name_resolve = name+'[COLOR red] ('+str(len(url2))+' itens)[/COLOR]'
+                addDir2(name_resolve.encode('utf-8', 'ignore'),str(url2).replace(',','||').replace('$'+playlist_command+'','#'+playlist_command+''),11,str(subtitle2).replace(',','||'),thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+            elif len(url2) >1 and re.search(playlist_command,url,re.IGNORECASE):
+                name_resolve = name+'[COLOR red] ('+str(len(url2))+' itens)[/COLOR]'
+                addDir2(name_resolve.encode('utf-8', 'ignore'),str(url2).replace(',','||').replace('$'+playlist_command+'','#'+playlist_command+''),11,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)
+                #addLink(name.encode('utf-8', 'ignore'),resolver(url),subtitle,thumbnail,fanArt,desc,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired)
+            elif category == 'Adult':
+                addDir2(name.encode('utf-8', 'ignore'),url,10,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False)
+            else:
+                addDir2(name.encode('utf-8', 'ignore'),url,16,subtitle,thumbnail,fanArt,desc.encode('utf-8'),genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,False,regex)            
+            if not 'doregex' in url and not len(url2) >1 and 'youtube' in url:
+                resolv = resolver(url,regex)
+            else:
+                resolv = ''
+            if resolv.startswith('plugin://plugin.video.youtube/playlist') == True or resolv.startswith('plugin://plugin.video.youtube/channel') == True or resolv.startswith('plugin://plugin.video.youtube/user') == True or resolv.startswith('Plugin://plugin.video.youtube/playlist') == True:
+                addDir(name.encode('utf-8', 'ignore'),resolver(url,regex),6,thumbnail,fanArt,desc,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired)            
+        except:
+            notify('[COLOR red]Erro ao Carregar os items![/COLOR]')
+
+
+def adult(name, url, iconimage, description, subtitle, regex):
+    try:
+        Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
+    except:
+        Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile'))
+    arquivo = os.path.join(Path, "password.txt")
+    exists = os.path.isfile(arquivo)
+    keyboard = xbmcaddon.Addon().getSetting("keyboard")
+    if exists == False:
+        parental_password()
+        xbmc.sleep(10)
+        p_file = open(arquivo,'r+')
+        p_file_read = p_file.read()
+        p_file_b64_decode = base64.b64decode(p_file_read).decode('utf-8')
+        dialog = xbmcgui.Dialog()
+        if int(keyboard) == 0:
+            ps = dialog.numeric(0, 'Insira a senha atual:')
+        else:
+            ps = dialog.input('Insira a senha atual:', option=xbmcgui.ALPHANUM_HIDE_INPUT)
+        if ps == p_file_b64_decode:
+            urlresolver = resolver(url,regex)
+            #if urlresolver.startswith("plugin://") and not 'elementum' in str(urlresolver):
+            #    xbmc.executebuiltin('RunPlugin(' + urlresolver + ')')
+            #elif urlresolver.startswith('plugin://plugin.video.youtube/playlist') == True or urlresolver.startswith('plugin://plugin.video.youtube/channel') == True or urlresolver.startswith('plugin://plugin.video.youtube/user') == True or urlresolver.startswith('Plugin://plugin.video.youtube/playlist') == True:
+            if urlresolver.startswith('plugin://plugin.video.youtube/playlist') == True or urlresolver.startswith('plugin://plugin.video.youtube/channel') == True or urlresolver.startswith('plugin://plugin.video.youtube/user') == True or urlresolver.startswith('Plugin://plugin.video.youtube/playlist') == True:
+                xbmc.executebuiltin("ActivateWindow(10025," + urlresolver + ",return)")
+            else:
+                li = xbmcgui.ListItem(name, path=urlresolver)
+                li.setArt({"icon": iconimage, "thumb": iconimage})
+                li.setInfo(type='video', infoLabels={'Title': name, 'plot': description })
+                if subtitle > '':
+                    li.setSubtitles([subtitle])
+                xbmc.Player().play(item=urlresolver, listitem=li)
+        else:
+            xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','Senha invalida!, se não alterou utilize a senha padrão')
+    else:
+        p_file = open(arquivo,'r+')
+        p_file_read = p_file.read()
+        p_file_b64_decode = base64.b64decode(p_file_read).decode('utf-8')
+        dialog = xbmcgui.Dialog()
+        if int(keyboard) == 0:
+            ps = dialog.numeric(0, 'Insira a senha atual:')
+        else:
+            ps = dialog.input('Insira a senha atual:', option=xbmcgui.ALPHANUM_HIDE_INPUT)
+        if ps == p_file_b64_decode:
+            urlresolver = resolver(url,regex)
+            #if urlresolver.startswith("plugin://") and not 'elementum' in str(urlresolver):
+            #    xbmc.executebuiltin('RunPlugin(' + urlresolver + ')')
+            #elif urlresolver.startswith('plugin://plugin.video.youtube/playlist') == True or urlresolver.startswith('plugin://plugin.video.youtube/channel') == True or urlresolver.startswith('plugin://plugin.video.youtube/user') == True or urlresolver.startswith('Plugin://plugin.video.youtube/playlist') == True:
+            if urlresolver.startswith('plugin://plugin.video.youtube/playlist') == True or urlresolver.startswith('plugin://plugin.video.youtube/channel') == True or urlresolver.startswith('plugin://plugin.video.youtube/user') == True or urlresolver.startswith('Plugin://plugin.video.youtube/playlist') == True:
+                xbmc.executebuiltin("ActivateWindow(10025," + urlresolver + ",return)")
+            else:
+                li = xbmcgui.ListItem(name, path=urlresolver)
+                li.setArt({"icon": iconimage, "thumb": iconimage})
+                li.setInfo(type='video', infoLabels={'Title': name, 'plot': description })
+                if subtitle > '':
+                    li.setSubtitles([subtitle])
+                xbmc.Player().play(item=urlresolver, listitem=li)
+        else:
+            xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','Senha invalida!, se não alterou utilize a senha padrão')
+
+def playlist(name, url, iconimage, description, subtitle, regex):
+    playlist_command1 = playlist_command
+    dialog = xbmcgui.Dialog()
+    links = re.compile('<link>([\s\S]*?)#'+playlist_command1+'', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(url)
+    names = re.compile('#'+playlist_command1+'=([\s\S]*?)</link>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(url)
+    names2 = []
+    subtitles = re.compile('<subtitle>([\s\S]*?)</subtitle>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(subtitle)
+    for name in names:
+        myname = name.replace('+', ' ')
+        names2.append(myname)
+    if links !=[] and names2 !=[]:
+        index = dialog.select(dialog_playlist, names2)
+        if index >= 0:
+            playname=names2[index]
+            if playname > '':
+                playname1 = playname
+            else:
+                playname1 = 'Desconhecido'
+            playlink=links[index]
+            if subtitles !=[]:
+                playsub=subtitles[index]
+            else:
+                playsub = ''
+            urlresolver = resolver(playlink,regex)
+            #if urlresolver.startswith("plugin://") and not 'elementum' in str(urlresolver):
+            #    xbmc.executebuiltin('RunPlugin(' + urlresolver + ')')
+            #elif urlresolver.startswith('plugin://plugin.video.youtube/playlist') == True or urlresolver.startswith('plugin://plugin.video.youtube/channel') == True or urlresolver.startswith('plugin://plugin.video.youtube/user') == True or urlresolver.startswith('Plugin://plugin.video.youtube/playlist') == True:
+            if urlresolver.startswith('plugin://plugin.video.youtube/playlist') == True or urlresolver.startswith('plugin://plugin.video.youtube/channel') == True or urlresolver.startswith('plugin://plugin.video.youtube/user') == True or urlresolver.startswith('Plugin://plugin.video.youtube/playlist') == True:
+                xbmc.executebuiltin("ActivateWindow(10025," + urlresolver + ",return)")
+            else:
+                li = xbmcgui.ListItem(playname1, path=urlresolver)
+                li.setArt({"icon": iconimage, "thumb": iconimage})
+                li.setInfo(type='video', infoLabels={'Title': playname1, 'plot': description })
+                if subtitle > '':
+                    li.setSubtitles([playsub])
+                xbmc.Player().play(item=urlresolver, listitem=li)
+
+
+
+def individual_player(name, url, iconimage, description, subtitle, regex):
+    urlresolver = resolver(url,regex)
+    #if urlresolver.startswith("plugin://") and not 'elementum' in str(urlresolver):
+    #    xbmc.executebuiltin('RunPlugin(' + urlresolver + ')')
+    #else:
+    li = xbmcgui.ListItem(name, path=urlresolver)
+    li.setArt({"icon": iconimage, "thumb": iconimage})
+    li.setInfo(type='video', infoLabels={'Title': name, 'plot': description })
+    if subtitle > '':
+        li.setSubtitles([subtitle])
+    #xbmc.Player().play(item=urlresolver, listitem=li)
+    xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, li)
+
+
+def m3u8_player(name, url, iconimage, description, subtitle):
+    #if url.startswith("plugin://") and not 'elementum' in str(url):
+    #    xbmc.executebuiltin('RunPlugin(' + url + ')')
+    #else:
+    li = xbmcgui.ListItem(name, path=url)
+    li.setArt({"icon": iconimage, "thumb": iconimage})
+    li.setInfo(type='video', infoLabels={'Title': name, 'plot': description })
+    if subtitle > '':
+        li.setSubtitles([subtitle])
+    xbmc.Player().play(item=url, listitem=li)
+
+
+def ascii(string):
+    if isinstance(string, basestring):
+        if isinstance(string, unicode):
+           string = string.encode('ascii', 'ignore')
+    return string
+def uni(string, encoding = 'utf-8'):
+    if isinstance(string, basestring):
+        if not isinstance(string, unicode):
+            string = unicode(string, encoding, 'ignore')
+    return string
+def removeNonAscii(s): return "".join(filter(lambda x: ord(x)<128, s))
+
+def sendJSON(command):
+    data = ''
+    try:
+        data = xbmc.executeJSONRPC(uni(command))
+    except UnicodeEncodeError:
+        data = xbmc.executeJSONRPC(ascii(command))
+
+    return uni(data)
+
+
+def pluginquerybyJSON(url):
+    json_query = uni('{"jsonrpc":"2.0","method":"Files.GetDirectory","params":{"directory":"%s","media":"video","properties":["thumbnail","title","year","dateadded","fanart","rating","season","episode","studio"]},"id":1}') %url
+
+    json_folder_detail = json.loads(sendJSON(json_query))
+    for i in json_folder_detail['result']['files'] :
+        url = i['file']
+        name = removeNonAscii(i['label'])
+        thumbnail = removeNonAscii(i['thumbnail'])
+        try:
+            fanart = removeNonAscii(i['fanart'])
+        except Exception:
+            fanart = ''
+        try:
+            date = i['year']
+        except Exception:
+            date = ''
+        try:
+            episode = i['episode']
+            season = i['season']
+            if episode == -1 or season == -1:
+                description = ''
+            else:
+                description = '[COLOR yellow] S' + str(season)+'[/COLOR][COLOR hotpink] E' + str(episode) +'[/COLOR]'
+        except Exception:
+            description = ''
+        try:
+            studio = i['studio']
+            if studio:
+                description += '\n Studio:[COLOR steelblue] ' + studio[0] + '[/COLOR]'
+        except Exception:
+            studio = ''
+
+        desc = description+'\n\nDate: '+str(date)
+
+        if i['filetype'] == 'file':
+            #addLink(url,name,thumbnail,fanart,description,'',date,'',None,'',total=len(json_folder_detail['result']['files']))
+            addLink(name.encode('utf-8', 'ignore'),url.encode('utf-8'),'',thumbnail,fanart,desc,'','','','','','','','','','','','','','','','')
+            #xbmc.executebuiltin("Container.SetViewMode(500)")
+
+        else:
+            #addDir(name,url,53,thumbnail,fanart,description,'',date,'')
+            addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),6,iconimage,fanart,desc,'','','','','','','','','','','','','','','','')
+            #xbmc.executebuiltin("Container.SetViewMode(500)")
+
+def youtube_live(url):
+    data = getRequest2(url, 'https://www.youtube.com/')
+    #print(data)
+    match = re.compile('"hlsManifestUrl.+?"(.+?).m3u8', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+    if match !=[]:
+        stream = match[0].replace(':\\"https:', 'https:').replace('\/', '/').replace('\n', '')+'.m3u8|Referer=https://www.youtube.com/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'
+        #print(stream)
+        return stream
+    else:
+        stream = ''
+        return stream
+
+
+def youtube_live_player(name, url, iconimage, description, subtitle):
+    li = xbmcgui.ListItem(name, path=youtube_live(url))
+    li.setArt({"icon": iconimage, "thumb": iconimage})
+    li.setInfo(type='video', infoLabels={'Title': name, 'plot': description })
+    if subtitle > '':
+        li.setSubtitles([subtitle])
+    #xbmc.Player().play(item=youtube_live(url), listitem=li)
+    xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, li)
+
+
+
+def youtube(url):
+    plugin_url = url
+    xbmc.executebuiltin("ActivateWindow(10025," + plugin_url + ",return)")
+
+
+
+def youtube_resolver(url):
+    link_youtube = url
+    if link_youtube.startswith('https://www.youtube.com/watch?v') == True or link_youtube.startswith('https://youtube.com/watch?v') == True:
+        get_id1 = re.compile('v=(.+?)&', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(link_youtube)
+        get_id2 = re.compile('v=(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(link_youtube)
+        if get_id1 !=[]:
+            #print('tem')
+            id_video = get_id1[0]
+            #print(id)
+            resolve = 'plugin://plugin.video.youtube/play/?video_id='+id_video
+        elif get_id2 !=[]:
+            #print('tem2')
+            id_video = get_id2[0]
+            #print(id)
+            resolve = 'plugin://plugin.video.youtube/play/?video_id='+id_video
+        else:
+            resolve = ''
+    elif link_youtube.startswith('https://www.youtube.com/playlist?') == True or link_youtube.startswith('https://youtube.com/playlist?') == True:
+        get_id1 = re.compile('list=(.+?)&', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(link_youtube)
+        get_id2 = re.compile('list=(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(link_youtube)
+        if get_id1 !=[]:
+            #print('tem')
+            id_video = get_id1[0]
+            #print(id)
+            resolve = 'plugin://plugin.video.youtube/playlist/'+id_video+'/?page=0'
+        elif get_id2 !=[]:
+            #print('tem2')
+            id_video = get_id2[0]
+            #print(id)
+            resolve = 'plugin://plugin.video.youtube/playlist/'+id_video+'/?page=0'
+        else:
+            resolve = ''
+    elif link_youtube.startswith('https://www.youtube.com/channel') == True or link_youtube.startswith('https://youtube.com/channel') == True:
+        get_id1 = re.compile('channel/(.+?)&', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(link_youtube)
+        get_id2 = re.compile('channel/(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(link_youtube)
+        if get_id1 !=[]:
+            #print('tem')
+            id_video = get_id1[0]
+            #print(id)
+            resolve = 'plugin://plugin.video.youtube/channel/'+id_video+'/'
+        elif get_id2 !=[]:
+            #print('tem2')
+            id_video = get_id2[0]
+            #print(id)
+            resolve = 'plugin://plugin.video.youtube/channel/'+id_video+'/'
+        else:
+            resolve = ''
+    elif link_youtube.startswith('https://www.youtube.com/user') == True or link_youtube.startswith('https://youtube.com/user') == True:
+        get_id1 = re.compile('user/(.+?)&', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(link_youtube)
+        get_id2 = re.compile('user/(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(link_youtube)
+        if get_id1 !=[]:
+            #print('tem')
+            id_video = get_id1[0]
+            #print(id)
+            resolve = 'plugin://plugin.video.youtube/user/'+id_video+'/'
+        elif get_id2 !=[]:
+            #print('tem2')
+            id_video = get_id2[0]
+            #print(id)
+            resolve = 'plugin://plugin.video.youtube/user/'+id_video+'/'
+        else:
+            resolve = ''
+
+    else:
+        resolve = ''
+    return resolve
+
+
+def youtube_restore(url):
+    if url.find('/?video_id=') >= 0:
+        find_id = re.compile('/?video_id=(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(url)
+        normal_url = 'https://www.youtube.com/watch?v='+str(find_id[0])
+    elif url.find('youtube/playlist/') >= 0:
+        find_id = re.compile('/playlist/(.+?)/', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(url)
+        normal_url = 'https://www.youtube.com/playlist?list='+str(find_id[0])
+    else:
+        normal_url = ''
+    return normal_url
+    
+#
+url_origem = 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzdQbHVzUkVQTy9zZXJ2ZXJUb3JyL21hc3Rlci9NZW51LnR4dA=='
+try:
+    url_principal = base64.b64decode(url_origem).decode('utf-8')
+except:
+    url_principal = url_origem
+
+def data_youtube(url, ref):
+    try:
+        try:
+            import cookielib
+        except ImportError:
+            import http.cookiejar as cookielib
+        try:
+            import urllib2
+        except ImportError:
+            import urllib.request as urllib2
+        if ref > '':
+            ref2 = ref
+        else:
+            ref2 = url
+        cj = cookielib.CookieJar()
+        opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
+        opener.addheaders=[('Accept-Language', 'en-US,en;q=0.9;q=0.8'),('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'),('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'), ('Referer', ref2)]
+        data = opener.open(url).read()
+        response = data.decode('utf-8')
+        return response
+    except:
+        #pass
+        response = ''
+        return response
+
+
+def getPlaylistLinksYoutube(url):
+    try:
+        sourceCode = data_youtube(youtube_restore(url), '')
+    except:
+        sourceCode = ''
+    ytb_re = re.compile('url":"https://i.ytimg.com/vi/(.+?)/hqdefault.+?"width":.+?,"height":.+?}]},"title".+?"text":"(.+?)"}],', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(sourceCode)
+    for video_id,name in ytb_re:
+        original_name = str(name).replace(r"\u0026","&").replace('\\', '')
+        thumbnail = "https://img.youtube.com/vi/%s/0.jpg" % video_id
+        fanart = "https://i.ytimg.com/vi/%s/hqdefault.jpg" % video_id
+        plugin_url = 'plugin://plugin.video.youtube/play/?video_id='+video_id
+        urlfinal = str(plugin_url)
+        description = ''
+        addLink(original_name.encode('utf-8', 'ignore'),urlfinal,'',str(thumbnail),str(fanart),description,'','','','','','','','','','','','','','','','')
+
+
+def canaismax(url):
+    try:
+        page = str(re.compile('canaismax_page=(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(url)[0])
+        data = getRequest2(page,'')
+        source = re.compile('source.+?"(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+        source2 = re.compile('var.+?url.+?=.+?"(.+?)";', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+        if source2 !=[]:
+            link = source2[0].replace('\n','').replace('\r','')
+            if '.m3u8' in str(link):
+                stream = str(link)
+            else:
+                stream = ''
+        elif source !=[]:
+            link = source[0].replace('\n','').replace('\r','')
+            if '.m3u8' in str(link):
+                stream = str(link)
+            else:
+                stream = ''
+        else:
+            stream = ''
+        return stream
+    except:
+        stream = ''
+        return stream
+
+
+def netcine2(url):
+    try:
+        page = str(re.compile('netcine2_page=(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(url)[0])
+        data = getRequest2(page,'')
+        source = re.compile('source.+?"(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+        if source !=[]:
+            link = source[0].replace('\n','').replace('\r','')
+        else:
+            link = ''
+        return link
+    except:
+        link = ''
+        return link
+
+
+def ultracine(url):
+    try:
+        page = str(re.compile('ultracine_page=(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(url)[0])
+        data = getRequest2(page,'')
+        source = re.compile('.log.+?"(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+        if source !=[]:
+            link = source[0].replace('\n','').replace('\r','')
+        else:
+            link = ''
+        return link
+    except:
+        link = ''
+        return link
+
+
+def streamtape(url):
+    correct_url = url.replace('streamtape.com/v/', 'streamtape.com/e/')
+    data = getRequest2(correct_url,'')
+    link_part1_re = re.compile('videolink.+?style="display:none;">(.*?)&token=').findall(data)
+    link_part2_re = re.compile("<script>.+?token=(.*?)'.+?</script>").findall(data)
+    if link_part1_re !=[] and link_part2_re !=[]:
+        #link = 'https:'+link_re[0]+'&stream=1'
+        #link = 'https:'+link_part1_re[0]+'&token='+link_part2_re[0]
+        link = 'https:'+link_part1_re[0]+'&token='+link_part2_re[0]+'|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
+    else:
+        link = ''
+    return link
+
+
+def series_canaismax(url):
+    try:
+        page = re.compile('series_canaismax=(.+?)&idioma=(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(url)
+        link = page[0][0]
+        idioma = page[0][1]
+        if 'leg' in idioma or 'Leg' in idioma or 'LEG' in idioma:
+            data = getRequest2(link,'')
+            tags = re.compile('javascript.+?data-id="(.+?)".+?data-episodio="(.+?)".+?data-player="(.+?)".+?<i>(.+?)</i>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+            tags2 = []
+            for id,episodio,player,lang in tags:
+                if 'LEG' in lang:
+                    tags2.append((id,episodio,player))
+            if tags2 !=[]:
+                data_id = tags2[0][0]
+                data_episodio = tags2[0][1]
+                data_player = tags2[0][2]
+                data2 = getRequest2('https://canaismax.com/embed/'+data_id+'/'+data_episodio+'/'+data_player,'')
+                source = str(re.compile('source.+?"(.*?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data2)[0])+'|Referer=https://canaismax.com/'
+            else:
+                source = ''
+        elif 'dub' in idioma or 'Dub' in idioma or 'DUB' in idioma:
+            data = getRequest2(link,'')
+            tags = re.compile('javascript.+?data-id="(.+?)".+?data-episodio="(.+?)".+?data-player="(.+?)".+?<i>(.+?)</i>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+            tags2 = []
+            for id,episodio,player,lang in tags:
+                if 'DUB' in lang:
+                    tags2.append((id,episodio,player))
+            if tags2 !=[]:
+                data_id = tags2[0][0]
+                data_episodio = tags2[0][1]
+                data_player = tags2[0][2]
+                data2 = getRequest2('https://canaismax.com/embed/'+data_id+'/'+data_episodio+'/'+data_player,'')
+                source = str(re.compile('source.+?"(.*?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data2)[0])+'|Referer=https://canaismax.com/'
+            else:
+                source = ''
+        else:
+            source = ''
+        return source
+    except:
+        source = ''
+        return source
+
+
+def filmes_canaismax(url):
+    try:
+        page = re.compile('filmes_canaismax=(.+?)&idioma=(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(url)
+        link = page[0][0]
+        idioma = page[0][1]
+        if 'leg' in idioma or 'Leg' in idioma or 'LEG' in idioma:
+            data = getRequest2(link,'')
+            tags = re.compile('javascript.+?data-id="(.+?)".+?data-player="(.+?)".+?<i>(.+?)</i>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+            tags2 = []
+            for id,player,lang in tags:
+                if 'LEG' in lang:
+                    tags2.append((id,player))
+            if tags2 !=[]:
+                data_id = tags2[0][0]
+                data_player = tags2[0][1]
+                data2 = getRequest2('https://canaismax.com/embed/'+data_id+'/'+data_player,'')
+                source = str(re.compile('source.+?"(.*?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data2)[0])+'|Referer=https://canaismax.com/'
+            else:
+                source = ''
+        elif 'dub' in idioma or 'Dub' in idioma or 'DUB' in idioma:
+            data = getRequest2(link,'')
+            tags = re.compile('javascript.+?data-id="(.+?)".+?data-player="(.+?)".+?<i>(.+?)</i>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+            tags2 = []
+            for id,player,lang in tags:
+                if 'DUB' in lang:
+                    tags2.append((id,player))
+            if tags2 !=[]:
+                data_id = tags2[0][0]
+                data_player = tags2[0][1]
+                data2 = getRequest2('https://canaismax.com/embed/'+data_id+'/'+data_player,'')
+                source = str(re.compile('source.+?"(.*?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data2)[0])+'|Referer=https://canaismax.com/'
+            else:
+                source = ''
+        else:
+            source = ''
+        return source
+    except:
+        source = ''
+        return source
+
+
+def doEval(fun_call):
+    ret_val=''
+    #print fun_call
+    if functions_dir not in sys.path:
+        sys.path.append(functions_dir)
+
+#    print fun_call
+    try:
+        py_file='import '+fun_call.split('.')[0]
+#        print py_file,sys.path
+        exec( py_file)
+#        print 'done'
+    except:
+        #print 'error in import'
+        traceback.print_exc(file=sys.stdout)
+#    print 'ret_val='+fun_call
+    exec ('ret_val='+fun_call)
+#    print ret_val
+    #exec('ret_val=1+1')
+    try:
+        return str(ret_val)
+    except: return ret_val
+
+
+def getRegex(url,regex='false'):
+    if not 'false' in str(regex) and '$doregex' in url:
+        regex = re.compile('<regex>(.*?)</regex>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(regex)
+        resolved={}
+        for r in regex:
+            name = re.compile('<name>(.*?)</name>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r)
+            if name !=[]:
+                name = name[0]
+            else:
+                name = ''                
+                
+            if 'page' in r:
+                page = re.compile('<page>(.*?)</page>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r)
+                if page !=[]:
+                    page = page[0]
+                else:
+                    page = ''
+            else:
+                page = ''
+            if 'expres' in r:
+                expres = re.compile('<expres>(.*?)</expres>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r)
+                if expres !=[]:
+                    expres = expres[0]
+                else:
+                    expres = ''
+            else:
+                expres = ''
+                    
+            if not '$doregex' in page and page !='' and not '$doregex' in expres:                
+                if 'page' in r:                    
+                    if 'proxy' in r:
+                        proxy = re.compile('<proxy>(.*?)</proxy>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r)
+                        if proxy !=[]:
+                            if 'http:' in proxy[0]:
+                                page = page.replace('https:', 'http:')
+                            elif 'https' in proxy[0]:
+                                page = page.replace('http:', 'https:')
+                    if page !='':
+                        #print(page)
+                        req = urllib2.Request(page)
+                        if 'referer' in r:
+                            referer = re.compile('<referer>(.*?)</referer>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r)
+                            if referer !=[]:
+                                req.add_header('Referer', referer[0])
+                        if 'accept' in r:
+                            accept = re.compile('<accept>(.*?)</accept>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r)
+                            if accept !=[]:
+                                req.add_header('Accept', accept[0])
+                        if 'agent' in r:
+                            agent = re.compile('<agent>(.*?)</agent>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r)
+                            if agent !=[]:
+                                req.add_header('User-agent', agent[0])
+                            else:
+                                req.add_header('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36')
+                        else:
+                            req.add_header('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36')
+                                
+                        if 'setcookie' in r:
+                            setcookie = re.compile('<setcookie>(.*?)</setcookie>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r)
+                            if setcookie !=[]:
+                                req.add_header('Cookie', setcookie[0])
+                        if 'proxy' in r:
+                            try:
+                                if 'http:' in proxy:
+                                    httpsplit = proxy.split('http://')
+                                    #configura um "opener" com um proxy
+                                    proxy  = urllib2.ProxyHandler({"http":httpsplit[1]})
+                                    auth = urllib2.HTTPBasicAuthHandler()
+                                    opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
+                                    urllib2.install_opener(opener)
+                                elif 'https:' in proxy:
+                                    httpsplit = proxy.split('https://')
+                                    proxy  = urllib2.ProxyHandler({"https":httpsplit[1]})
+                                    auth = urllib2.HTTPBasicAuthHandler()
+                                    opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
+                                    urllib2.install_opener(opener)
+                            except:
+                                pass
+                        if 'post' in r:
+                            post = re.compile('<post>(.*?)</post>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r)
+                            if post !=[]:
+                                postData = post
+                                splitpost=postData.split(',')
+                                post={}
+                                for p in splitpost:
+                                    n=p.split(':')[0];
+                                    v=p.split(':')[1];
+                                    post[n]=v
+                                post = urllib.urlencode(post).encode()   
+                                response = urllib2.urlopen(req,post)
+                        else:
+                            response = urllib2.urlopen(req)
+                        data = response.read().decode('utf8')
+                    else:
+                        data = ''
+                else:
+                    data = ''
+                if expres.startswith('$pyFunction:'):
+                    try:
+                        func = expres.split('$pyFunction:')[1]
+                        link = doEval(func)
+                    except:
+                        link = ''
+                elif data !='' and expres !='':
+                    exp = re.compile(expres).findall(data)
+                    if exp !=[]:
+                        link = exp[0]
+                    else:
+                        link = ''
+                else:
+                    link = ''
+                if link !='':
+                    resolved[name]=link
+#-------------------------------------------------------------------------------------------------------------
+        for r2 in regex:
+            if 'page' in r2:
+                page = re.compile('<page>(.*?)</page>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r2)
+                if page !=[]:
+                    page = page[0]
+                else:
+                    page = ''
+            else:
+                page = ''
+            if 'expres' in r:
+                expres = re.compile('<expres>(.*?)</expres>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r2)
+                if expres !=[]:
+                    expres = expres[0]
+                else:
+                    expres = ''
+            else:
+                expres = ''
+            if '$doregex' in page and page !='' and not '$doregex' in expres:
+                name = re.compile('<name>(.*?)</name>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r2)
+                if name !=[]:
+                    name = name[0]
+                else:
+                    name = ''
+                if page !='':
+                    doRegexs = re.compile('\$doregex\[([^\]]*)\]').findall(page)
+                    if doRegexs !=[]:
+                        for n in doRegexs:
+                            page = page.replace('$doregex['+n+']', resolved[n])                    
+                    
+                        req = urllib2.Request(page)
+                        if 'referer' in r:
+                            referer = re.compile('<referer>(.*?)</referer>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r2)
+                            if referer !=[]:
+                                req.add_header('Referer', referer[0])
+                        if 'accept' in r:
+                            accept = re.compile('<accept>(.*?)</accept>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r2)
+                            if accept !=[]:
+                                req.add_header('Accept', accept[0])
+                        if 'agent' in r:
+                            agent = re.compile('<agent>(.*?)</agent>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r2)
+                            if agent !=[]:
+                                req.add_header('User-agent', agent[0])
+                            else:
+                                req.add_header('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36')
+                        else:
+                            req.add_header('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36')
+                                
+                        if 'setcookie' in r:
+                            setcookie = re.compile('<setcookie>(.*?)</setcookie>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r2)
+                            if setcookie !=[]:
+                                req.add_header('Cookie', setcookie[0])
+                        if 'proxy' in r:
+                            try:
+                                if 'http:' in proxy:
+                                    httpsplit = proxy.split('http://')
+                                    #configura um "opener" com um proxy
+                                    proxy  = urllib2.ProxyHandler({"http":httpsplit[1]})
+                                    auth = urllib2.HTTPBasicAuthHandler()
+                                    opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
+                                    urllib2.install_opener(opener)
+                                elif 'https:' in proxy:
+                                    httpsplit = proxy.split('https://')
+                                    proxy  = urllib2.ProxyHandler({"https":httpsplit[1]})
+                                    auth = urllib2.HTTPBasicAuthHandler()
+                                    opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
+                                    urllib2.install_opener(opener)
+                            except:
+                                pass
+                        if 'post' in r:
+                            post = re.compile('<post>(.*?)</post>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r2)
+                            if post !=[]:
+                                postData = post
+                                splitpost=postData.split(',')
+                                post={}
+                                for p in splitpost:
+                                    n=p.split(':')[0];
+                                    v=p.split(':')[1];
+                                    post[n]=v
+                                post = urllib.urlencode(post).encode()   
+                                response = urllib2.urlopen(req,post)
+                        else:
+                            response = urllib2.urlopen(req)
+                        data = response.read().decode('utf8')
+                else:
+                    data = ''
+                if expres.startswith('$pyFunction:'):
+                    try:
+                        func = expres.split('$pyFunction:')[1]
+                        link = doEval(func)
+                    except:
+                        link = ''
+                elif data !='' and expres !='':
+                    exp = re.compile(expres).findall(data)
+                    if exp !=[]:
+                        link = exp[0]
+                    else:
+                        link = ''
+                else:
+                    link = ''
+                if link !='':
+                    resolved[name]=link
+        #print(resolved)
+#-------------------------------------------------------------------------------------------------------------
+        for r3 in regex:
+            if 'page' in r3:
+                page = re.compile('<page>(.*?)</page>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r3)
+                if page !=[]:
+                    page = page[0]
+                else:
+                    page = ''
+            else:
+                page = ''
+            if 'expres' in r:
+                expres = re.compile('<expres>(.*?)</expres>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r3)
+                if expres !=[]:
+                    expres = expres[0]
+                else:
+                    expres = ''
+            else:
+                expres = ''
+
+            if not '$doregex' in page and page !='' and '$doregex' in expres:
+                name = re.compile('<name>(.*?)</name>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r3)
+                if name !=[]:
+                    name = name[0]
+                else:
+                    name = ''
+                if page !='':
+                    doRegexs = re.compile('\$doregex\[([^\]]*)\]').findall(expres)
+                    if doRegexs !=[]:
+                        for n in doRegexs:
+                            expres = expres.replace('$doregex['+n+']', resolved[n])                    
+                    
+                        req = urllib2.Request(page)
+                        if 'referer' in r:
+                            referer = re.compile('<referer>(.*?)</referer>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r3)
+                            if referer !=[]:
+                                req.add_header('Referer', referer[0])
+                        if 'accept' in r:
+                            accept = re.compile('<accept>(.*?)</accept>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r3)
+                            if accept !=[]:
+                                req.add_header('Accept', accept[0])
+                        if 'agent' in r:
+                            agent = re.compile('<agent>(.*?)</agent>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r3)
+                            if agent !=[]:
+                                req.add_header('User-agent', agent[0])
+                            else:
+                                req.add_header('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36')
+                        else:
+                            req.add_header('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36')
+                                
+                        if 'setcookie' in r:
+                            setcookie = re.compile('<setcookie>(.*?)</setcookie>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r3)
+                            if setcookie !=[]:
+                                req.add_header('Cookie', setcookie[0])
+                        if 'proxy' in r:
+                            try:
+                                if 'http:' in proxy:
+                                    httpsplit = proxy.split('http://')
+                                    #configura um "opener" com um proxy
+                                    proxy  = urllib2.ProxyHandler({"http":httpsplit[1]})
+                                    auth = urllib2.HTTPBasicAuthHandler()
+                                    opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
+                                    urllib2.install_opener(opener)
+                                elif 'https:' in proxy:
+                                    httpsplit = proxy.split('https://')
+                                    proxy  = urllib2.ProxyHandler({"https":httpsplit[1]})
+                                    auth = urllib2.HTTPBasicAuthHandler()
+                                    opener = urllib2.build_opener(proxy, auth, urllib2.HTTPHandler)
+                                    urllib2.install_opener(opener)
+                            except:
+                                pass
+                        if 'post' in r:
+                            post = re.compile('<post>(.*?)</post>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r3)
+                            if post !=[]:
+                                postData = post
+                                splitpost=postData.split(',')
+                                post={}
+                                for p in splitpost:
+                                    n=p.split(':')[0];
+                                    v=p.split(':')[1];
+                                    post[n]=v
+                                post = urllib.urlencode(post).encode()   
+                                response = urllib2.urlopen(req,post)
+                        else:
+                            response = urllib2.urlopen(req)
+                        data = response.read().decode('utf8')
+                else:
+                    data = ''
+                if expres.startswith('$pyFunction:'):
+                    try:
+                        func = expres.split('$pyFunction:')[1]
+                        link = doEval(func)
+                    except:
+                        link = ''
+                elif data !='' and expres !='':
+                    exp = re.compile(expres).findall(data)
+                    if exp !=[]:
+                        link = exp[0]
+                    else:
+                        link = ''
+                else:
+                    link = ''
+                if link !='':
+                    resolved[name]=link                   
+#-------------------------------------------------------------------------------------------------------------
+        for r4 in regex:
+            if 'page' in r4:
+                page = re.compile('<page>(.*?)</page>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r4)
+                if page !=[]:
+                    page = page[0]
+                else:
+                    page = ''
+            else:
+                page = ''
+            if 'expres' in r:
+                expres = re.compile('<expres>(.*?)</expres>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r4)
+                if expres !=[]:
+                    expres = expres[0]
+                else:
+                    expres = ''
+            else:
+                expres = ''          
+
+            if not page !='' and '$doregex' in expres:
+                name = re.compile('<name>(.*?)</name>', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(r4)
+                if name !=[]:
+                    name = name[0]
+                else:
+                    name = ''
+                doRegexs = re.compile('\$doregex\[([^\]]*)\]').findall(expres)
+                if doRegexs !=[]:
+                    for n in doRegexs:
+                        expres = expres.replace('$doregex['+n+']', resolved[n])
+                if expres.startswith('$pyFunction:'):
+                    try:
+                        func = expres.split('$pyFunction:')[1]
+                        link = doEval(func)
+                    except:
+                        link = ''
+                else:
+                    link = ''
+                if link !='':
+                    resolved[name]=link
+        try:
+            if '$doregex' in url:
+                doRegexs = re.compile('\$doregex\[([^\]]*)\]').findall(url)
+                if doRegexs !=[]:
+                    for n in doRegexs:
+                        url = url.replace('$doregex['+n+']', resolved[n])
+        except:
+            pass
+    return url
+
+
+def resolver(link,regex):
+    if not 'false' in str(regex) and '$doregex' in link:
+        link_decoded = getRegex(link,regex)
+    else:    
+        link_decoded = link
+    try:
+        if not link_decoded.startswith("plugin://plugin") and link_decoded.startswith('resolver') == True:
+            try:
+                final = str(re.compile('resolver=(.*)', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(link_decoded)[0])
+                import resolveurl as urlresolver
+                resolved = urlresolver.resolve(final)
+            except:
+                resolved = ''
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.startswith('https://drive.google.com') == True:
+            #print('verdadeiro')
+            resolved = link_decoded.replace('http','plugin://plugin.video.gdrive?mode=streamURL&amp;url=http')
+            #print(resolved)
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.startswith('http://drive.google.com') == True:
+            #print('verdadeiro')
+            resolved = link_decoded.replace('http','plugin://plugin.video.gdrive?mode=streamURL&amp;url=http')
+            #print(resolved)
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('streamtape.com') >= 0:
+            link = streamtape(link_decoded)
+            resolved = link
+            #print(resolved)
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('ultracine_page') >= 0:
+            link = ultracine(link_decoded)
+            resolved = link
+            #print(resolved)
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('netcine2_page') >= 0:
+            link = netcine2(link_decoded)
+            resolved = link
+            #print(resolved)
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('series_canaismax') >= 0:
+            link_corrigido = link_decoded.replace('idioma;', 'idioma')
+            link = series_canaismax(link_corrigido)
+            resolved = link
+            #print(resolved)
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('filmes_canaismax') >= 0:
+            link_corrigido = link_decoded.replace('idioma;', 'idioma')
+            link = filmes_canaismax(link_corrigido)
+            resolved = link
+            #print(resolved)
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('eu-central-1.edge.mycdn.live') >= 0:
+            #print('verdadeiro')
+            resolved = link_decoded
+            #print(resolved)
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('canaismax_page') >= 0:
+            stream = canaismax(link_decoded)
+            resolved = stream+'|Referer=https://canaismax.com/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.startswith('https://youtube.com/') == True or link_decoded.startswith('https://www.youtube.com/') == True:
+            try:
+                resultado = youtube_resolver(link_decoded)
+                if resultado==None:
+                    #print('vazio')
+                    resolved = ''
+                else:
+                    resolved = resultado
+            except:
+                resolved = ''
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.startswith('https://photos.app') == True:
+            try:
+                data = getRequest2(link_decoded, 'https://photos.google.com/')
+                result = re.compile('<meta property="og:video" content="(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(data)
+                if result !=[]:
+                    resolved = result[0].replace('-m18','-m22')
+                else:
+                    resolved = ''
+            except:
+                resolved = ''
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.startswith('magnet:?xt=') == True:
+            resolved = 'plugin://plugin.video.elementum/play?uri='+link_decoded
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('.torrent') >= 0:
+            resolved = 'plugin://plugin.video.elementum/play?uri='+link_decoded
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('.mp4') >= 0 and not link_decoded.startswith('magnet:?xt=') == True and not link_decoded.find('.torrent') >= 0:
+            resolved = link_decoded
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('.mkv') >= 0 and not link_decoded.startswith('magnet:?xt=') == True and not link_decoded.find('.torrent') >= 0:
+            resolved = link_decoded
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('.wmv') >= 0 and not link_decoded.startswith('magnet:?xt=') == True and not link_decoded.find('.torrent') >= 0:
+            resolved = link_decoded
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('.wma') >= 0 and not link_decoded.startswith('magnet:?xt=') == True and not link_decoded.find('.torrent') >= 0:
+            resolved = link_decoded
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('.avi') >= 0 and not link_decoded.startswith('magnet:?xt=') == True and not link_decoded.find('.torrent') >= 0:
+            resolved = link_decoded
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('.mp3') >= 0 and not link_decoded.startswith('magnet:?xt=') == True and not link_decoded.find('.torrent') >= 0:
+            resolved = link_decoded
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('.ac3') >= 0 and not link_decoded.startswith('magnet:?xt=') == True and not link_decoded.find('.torrent') >= 0:
+            resolved = link_decoded
+        elif not link_decoded.startswith("plugin://plugin") and link_decoded.find('.rmvb') >= 0 and not link_decoded.startswith('magnet:?xt=') == True and not link_decoded.find('.torrent') >= 0:
+            resolved = link_decoded
+        elif not link_decoded.startswith("plugin://plugin"):
+            resolved = link_decoded
+        elif link_decoded.startswith("plugin://plugin"):
+            resolved = link_decoded
+        return resolved
+    except:
+        resolved = ''
+        return resolved
+        #pass
+        #notify('[COLOR red]Não foi possivel resolver um link![/COLOR]')
+
+
+
+def getFavorites():
+    try:
+        try:
+            items = json.loads(open(favorites).read())
+        except:
+            items = ''
+        total = len(items)
+        if int(total) > 0:
+            for i in items:
+                name = i[0]
+                url = i[1]
+                try:
+                    urldecode = base64.b64decode(base64.b16decode(url))
+                except:
+                    urldecode = url
+                try:
+                    url2 = urldecode.decode('utf-8')
+                except:
+                    url2 = urldecode
+
+                mode = i[2]
+                subtitle = i[3]
+                try:
+                    subtitledecode = base64.b64decode(base64.b16decode(subtitle))
+                except:
+                    subtitledecode = subtitle
+                try:
+                    sub2 = subtitledecode.decode('utf-8')
+                except:
+                    sub2 = subtitledecode
+                iconimage = i[4]
+                try:
+                    fanArt = i[5]
+                    if fanArt == None:
+                        raise
+                except:
+                    if addon.getSetting('use_thumb') == "true":
+                        fanArt = iconimage
+                    else:
+                        fanArt = fanart
+                description = i[6]
+                
+                regex = i[7]
+
+                if mode == 0:
+                    try:
+                        #addLink(name.encode('utf-8', 'ignore'),url2,sub2,iconimage,fanArt,description.encode('utf-8'),'','','','','','','','','','','','','','','','')
+                        addLink(name.encode('utf-8', 'ignore'),url2,sub2,iconimage,fanArt,description.encode('utf-8'),'','','','','','','','','','','','','','','','')
+                    except:
+                        pass
+                elif mode == 11 or mode == 16 or mode == 17 or mode == 18:
+                    try:
+                        addDir2(str(name).encode('utf-8', 'ignore'),url2,mode,sub2,iconimage,fanArt,description.encode('utf-8'),'','','','','','','','','','','','','','','','',False,regex)
+                    except:
+                        pass
+                elif mode > 0 and mode < 7:
+                    try:
+                        addDir(name.encode('utf-8', 'ignore'),url2,mode,iconimage,fanArt,description.encode('utf-8'),'','','','','','','','','','','','','','','','')
+                    except:
+                        pass
+                else:
+                    try:
+                        addDir2(name.encode('utf-8', 'ignore'),url2,mode,sub2,iconimage,fanArt,description.encode('utf-8'),'','','','','','','','','','','','','','','','')
+                    except:
+                        pass
+                xbmcplugin.setContent(addon_handle, 'movies')
+                xbmcplugin.endOfDirectory(addon_handle)
+        else:
+            xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','Nada Adicionado nos Favoritos')
+    except:
+        pass
+
+
+def addFavorite(name,url,fav_mode,subtitle,iconimage,fanart,description,regex):
+    favList = []
+    if os.path.exists(favorites)==False:
+        addonID = xbmcaddon.Addon().getAddonInfo('id')
+        addon_data_path = xbmcvfs.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
+        if os.path.exists(addon_data_path)==False:
+            os.mkdir(addon_data_path)
+        xbmc.sleep(7)
+        favList.append((name,url,fav_mode,subtitle,iconimage,fanart,description,regex))
+        a = open(favorites, "w")
+        a.write(json.dumps(favList))
+        a.close()
+        notify('Adicionado aos Favoritos do '+__addonname__)
+        #xbmc.executebuiltin("XBMC.Container.Refresh")
+    else:
+        a = open(favorites).read()
+        data = json.loads(a)
+        data.append((name,url,fav_mode,subtitle,iconimage,fanart,description,regex))
+        b = open(favorites, "w")
+        b.write(json.dumps(data))
+        b.close()
+        notify('Adicionado aos Favoritos do '+__addonname__)
+        #xbmc.executebuiltin("XBMC.Container.Refresh")
+
+
+def rmFavorite(name):
+    data = json.loads(open(favorites).read())
+    for index in range(len(data)):
+        if data[index][0]==name:
+            del data[index]
+            b = open(favorites, "w")
+            b.write(json.dumps(data))
+            b.close()
+            break
+    notify('Removido dos Favoritos do '+__addonname__)
+    #xbmc.executebuiltin("XBMC.Container.Refresh")
+
+def addDir(name,url,mode,iconimage,fanart,description,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,folder=True):
+    if mode == 1:
+        if url > '':
+            #u=sys.argv[0]+"?url="+urllib.quote_plus(base64.b64encode(url))+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)
+            #u=sys.argv[0]+"?url="+urllib.quote_plus(codecs.encode(base64.b32encode(base64.b16encode(url)), '\x72\x6f\x74\x31\x33'))+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)
+            #u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)
+            #u=sys.argv[0]+"?url="+urllib.quote_plus(base64.b32encode(url.encode('utf-8')))+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)
+            #u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)
+            u=sys.argv[0]+"?url="+urllib.quote_plus(base64.b16encode(base64.b64encode(url.encode('utf-8'))))+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)
+        else:
+            u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(5)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)
+    else:
+        u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)
+    li=xbmcgui.ListItem(name)
+    if folder:
+        li.setArt({"icon": "DefaultFolder.png", "thumb": iconimage})
+    else:
+        li.setArt({"icon": "DefaultVideo.png", "thumb": iconimage})  
+    if date != '' and date !=None:
+        description += '\n\nDate: %s' %date
+    li.setInfo('video', { 'title': name, 'plot': description })
+    try:
+        li.setInfo('video', { 'genre': str(genre) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'dateadded': str(date) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'credits': str(credits) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'year': int(year) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'year': int(year) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'director': str(director) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'writer': str(writer) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'duration': int(duration) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'premiered': str(premiered) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'studio': str(studio) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'mpaa': str(rate) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'originaltitle': str(originaltitle) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'country': str(country) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'rating': float(rating) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'userrating': int(userrating) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'votes': str(votes) })
+    except:
+        pass
+    try:
+        li.setRating("imdb", float(rating), int(votes), True)
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'aired': str(aired) })
+    except:
+        pass
+
+    if fanart > '':
+        li.setProperty('fanart_image', fanart)
+    else:
+        li.setProperty('fanart_image', ''+home+'/fanart.jpg')
+    try:
+        name_decode = name.decode('utf-8')
+    except:
+        name_decode = name
+    try:
+        name_fav = json.dumps(name_decode)
+    except:
+        name_fav =  name_decode
+    try:
+        contextMenu = []
+        if favoritos == 'true' and  mode !=4 and mode !=7 and mode !=8 and mode !=9 and mode !=10 and mode !=12 and mode !=15:
+            if name_fav in FAV:
+                contextMenu.append(('Remover dos Favoritos do '+__addonname__,'RunPlugin(%s?mode=14&name=%s)'%(sys.argv[0], urllib.quote_plus(name))))
+            else:
+                fav_params = ('%s?mode=13&name=%s&url=%s&subtitle=%s&iconimage=%s&fanart=%s&description=%s&regex=false&fav_mode=%s'%(sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(base64.b16encode(base64.b64encode(url.encode('utf-8')))), '', urllib.quote_plus(iconimage), urllib.quote_plus(fanart), urllib.quote_plus(description), str(mode)))
+                contextMenu.append(('Adicionar aos Favoritos do '+__addonname__,'RunPlugin(%s)' %fav_params))
+        contextMenu.append(('Informação', 'RunPlugin(%s?mode=19&name=%s&description=%s)' % (sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(description))))
+        li.addContextMenuItems(contextMenu)
+    except:
+        pass
+    xbmcplugin.addDirectoryItem(handle=addon_handle,url=u,listitem=li, isFolder=folder)
+
+def addDir2(name,url,mode,subtitle,iconimage,fanart,description,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,folder=True,regex=False):
+    if mode == 1:
+        if url > '':
+            u=sys.argv[0]+"?url="+urllib.quote_plus(base64.b16encode(base64.b64encode(url.encode('utf-8'))))+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)
+        else:
+            u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(5)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)
+    else:
+        if regex:
+            u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)+"&iconimage="+urllib.quote_plus(iconimage)+"&subtitle="+urllib.quote_plus(subtitle)+"&description="+urllib.quote_plus(description)+"&regex="+urllib.quote_plus(regex)
+        else:
+            u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&fanart="+urllib.quote_plus(fanart)+"&iconimage="+urllib.quote_plus(iconimage)+"&subtitle="+urllib.quote_plus(subtitle)+"&description="+urllib.quote_plus(description)
+    li=xbmcgui.ListItem(name)
+    if folder:
+        li.setArt({"icon": "DefaultFolder.png", "thumb": iconimage})
+    else:
+        li.setArt({"icon": "DefaultVideo.png", "thumb": iconimage})
+    if mode == 16 or mode == 17:
+        li.setProperty('IsPlayable', 'true')        
+    if date == '':
+        date = None
+    else:
+        description += '\n\nDate: %s' %date
+    li.setInfo('video', { 'title': name, 'plot': description })
+    try:
+        li.setInfo('video', { 'genre': str(genre) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'dateadded': str(date) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'credits': str(credits) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'year': int(year) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'year': int(year) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'director': str(director) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'writer': str(writer) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'duration': int(duration) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'premiered': str(premiered) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'studio': str(studio) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'mpaa': str(rate) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'originaltitle': str(originaltitle) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'country': str(country) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'rating': float(rating) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'userrating': int(userrating) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'votes': str(votes) })
+    except:
+        pass
+    try:
+        li.setRating("imdb", float(rating), int(votes), True)
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'aired': str(aired) })
+    except:
+        pass
+    if fanart > '':
+        li.setProperty('fanart_image', fanart)
+    else:
+        li.setProperty('fanart_image', ''+home+'/fanart.jpg')
+    try:
+        name_decode = name.decode('utf-8')
+    except:
+        name_decode = name
+    try:
+        name_fav = json.dumps(name_decode)
+    except:
+        name_fav =  name_decode
+    try:
+        contextMenu = []
+        if favoritos == 'true' and  mode !=4 and mode !=7 and mode !=8 and mode !=9 and mode !=10 and mode !=12 and mode !=15:
+            if name_fav in FAV:
+                contextMenu.append(('Remover dos Favoritos do '+__addonname__,'RunPlugin(%s?mode=14&name=%s)'%(sys.argv[0], urllib.quote_plus(name))))
+            else:
+                if regex:
+                    fav_params = ('%s?mode=13&name=%s&url=%s&subtitle=%s&iconimage=%s&fanart=%s&description=%s&regex=%s&fav_mode=%s'%(sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(base64.b16encode(base64.b64encode(url.encode('utf-8')))), urllib.quote_plus(base64.b16encode(base64.b64encode(subtitle.encode('utf-8')))), urllib.quote_plus(iconimage), urllib.quote_plus(fanart), urllib.quote_plus(description), urllib.quote_plus(regex), str(mode)))
+                else:
+                    fav_params = ('%s?mode=13&name=%s&url=%s&subtitle=%s&iconimage=%s&fanart=%s&description=%s&regex=false&fav_mode=%s'%(sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(base64.b16encode(base64.b64encode(url.encode('utf-8')))), urllib.quote_plus(base64.b16encode(base64.b64encode(subtitle.encode('utf-8')))), urllib.quote_plus(iconimage), urllib.quote_plus(fanart), urllib.quote_plus(description), str(mode)))
+                contextMenu.append(('Adicionar aos Favoritos do '+__addonname__,'RunPlugin(%s)' %fav_params))
+        contextMenu.append(('Informação', 'RunPlugin(%s?mode=19&name=%s&description=%s)' % (sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(description))))
+        li.addContextMenuItems(contextMenu)
+    except:
+        pass
+    xbmcplugin.addDirectoryItem(handle=addon_handle,url=u,listitem=li, isFolder=folder)
+
+def addLink(name,url,subtitle,iconimage,fanart,description,genre,date,credits,year,director,writer,duration,premiered,studio,rate,originaltitle,country,rating,userrating,votes,aired,folder=False):
+    if date == '':
+        date = None
+    else:
+        description += '\n\nDate: %s' %date
+    if iconimage > '':
+        thumbnail = iconimage
+    else:
+        thumbnail = 'DefaultVideo.png'
+    li=xbmcgui.ListItem(name)
+    li.setArt({"icon": "DefaultVideo.png", "thumb": thumbnail})
+    if url.startswith("plugin://plugin.video.f4mTester"):
+        li.setProperty('IsPlayable', 'false')
+    else:
+        li.setProperty('IsPlayable', 'true')
+    if fanart > '':
+        li.setProperty('fanart_image', fanart)
+    else:
+        li.setProperty('fanart_image', ''+home+'/fanart.jpg')
+    try:
+        name_fav = json.dumps(name)
+    except:
+        name_fav = name
+    name2_fav = name
+    desc_fav = description
+    li.setInfo('video', { 'plot': description })
+    try:
+        li.setInfo('video', { 'genre': str(genre) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'dateadded': str(date) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'credits': str(credits) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'year': int(year) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'year': int(year) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'director': str(director) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'writer': str(writer) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'duration': int(duration) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'premiered': str(premiered) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'studio': str(studio) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'mpaa': str(rate) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'originaltitle': str(originaltitle) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'country': str(country) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'rating': float(rating) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'userrating': int(userrating) })
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'votes': str(votes) })
+    except:
+        pass
+    try:
+        li.setRating("imdb", float(rating), int(votes), True)
+    except:
+        pass
+    try:
+        li.setInfo('video', { 'aired': str(aired) })
+    except:
+        pass
+
+    if subtitle > '':
+        li.setSubtitles([subtitle])
+    try:
+        name_decode = name.decode('utf-8')
+    except:
+        name_decode = name
+    try:
+        name_fav = json.dumps(name_decode)
+    except:
+        name_fav =  name_decode
+    try:
+        contextMenu = []
+        if favoritos == 'true':
+            if name_fav in FAV:
+                contextMenu.append(('Remover dos Favoritos do '+__addonname__,'RunPlugin(%s?mode=14&name=%s)'%(sys.argv[0], urllib.quote_plus(name))))
+            else:
+                fav_params = ('%s?mode=13&name=%s&url=%s&subtitle=%s&iconimage=%s&fanart=%s&description=%s&regex=false&fav_mode=0'%(sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(base64.b16encode(base64.b64encode(url.encode('utf-8')))), urllib.quote_plus(base64.b16encode(base64.b64encode(subtitle.encode('utf-8')))), urllib.quote_plus(iconimage), urllib.quote_plus(fanart), urllib.quote_plus(description)))
+                contextMenu.append(('Adicionar aos Favoritos do '+__addonname__,'RunPlugin(%s)' %fav_params))
+        contextMenu.append(('Informação', 'RunPlugin(%s?mode=19&name=%s&description=%s)' % (sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(description))))
+        li.addContextMenuItems(contextMenu)
+    except:
+        pass
+    xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li, isFolder=folder)
+
+def parental_password():
+    try:
+        addonID = xbmcaddon.Addon().getAddonInfo('id')
+        addon_data_path = xbmcvfs.translatePath(os.path.join('special://home/userdata/addon_data', addonID))
+        if os.path.exists(addon_data_path)==False:
+            os.mkdir(addon_data_path)
+        xbmc.sleep(7)
+        #Path = xbmcvfs.translatePath(xbmcaddon.Addon().getAddonInfo('profile')).decode("utf-8")
+        #arquivo = os.path.join(Path, "password.txt")
+        arquivo = os.path.join(addon_data_path, "password.txt")
+        exists = os.path.isfile(arquivo)
+        if exists == False:
+            password = '0069'
+            p_encoded = base64.b64encode(password.encode()).decode('utf-8')
+            p_file = open(arquivo,'w')
+            p_file.write(p_encoded)
+            p_file.close()
+    except:
+        pass
+
+
+def time_convert(timestamp):
+    try:
+        if timestamp > '':
+            dt_object = datetime.fromtimestamp(int(timestamp))
+            time_br = dt_object.strftime('%d/%m/%Y às %H:%M:%S')
+            return str(time_br)
+        else:
+            valor = ''
+            return valor
+    except:
+        valor = ''
+        return valor
+
+def info_vip():
+    username_vip = addon.getSetting('username')
+    password_vip = addon.getSetting('password')
+    if username_vip > '' and password_vip > '':
+        try:
+            url_info = url_server_vip.replace('/get.php', '')+'/player_api.php?username=%s&password=%s'%(username_vip,password_vip)
+            dados_vip = getRequest2(url_info, '')
+            filtrar_info = re.compile('"status":"(.+?)".+?"exp_date":"(.+?)".+?"is_trial":"(.+?)".+?"created_at":"(.+?)".+?max_connections":"(.+?)"', re.MULTILINE|re.DOTALL|re.IGNORECASE).findall(dados_vip)
+            if filtrar_info !=[]:
+                status = str(filtrar_info[0][0])
+                exp_date = str(filtrar_info[0][1])
+                trial = str(filtrar_info[0][2])
+                created = str(filtrar_info[0][3])
+                max_connection = str(filtrar_info[0][4])
+                #status do usuario
+                if status > '' and status == 'Active':
+                    status_result = 'Ativo'
+                else:
+                    status_result = 'Expirado'
+                #Validade do vip
+                if exp_date > '':
+                    expires = time_convert(str(exp_date))
+                else:
+                    expires = ''
+                #usuario de teste
+                if trial > '' and trial == '0':
+                    vip_trial = 'Não'
+                else:
+                    vip_trial = 'Sim'
+                #criado
+                if created > '':
+                    created_time = time_convert(str(created))
+                else:
+                    created_time = ''
+                #limite de conexoes
+                if max_connection > '':
+                    limite_conexao = max_connection
+                else:
+                    limite_conexao = ''
+
+                try:
+                    xbmcaddon.Addon().setSetting("status_vip", status_result)
+                    xbmcaddon.Addon().setSetting("created_at", created_time)
+                    xbmcaddon.Addon().setSetting("exp_date", expires)
+                    xbmcaddon.Addon().setSetting("is_trial", vip_trial)
+                    xbmcaddon.Addon().setSetting("max_connection", limite_conexao)
+                except:
+                    pass
+        except:
+            try:
+                xbmcaddon.Addon().setSetting("status_vip", '')
+                xbmcaddon.Addon().setSetting("created_at", '')
+                xbmcaddon.Addon().setSetting("exp_date", '')
+                xbmcaddon.Addon().setSetting("is_trial", '')
+                xbmcaddon.Addon().setSetting("max_connection", '')
+            except:
+                pass
+
+def vip():
+    username_vip = addon.getSetting('username')
+    password_vip = addon.getSetting('password')
+    #tipo_servidor = addon.getSetting('servidor')
+    vip_menu = addon.getSetting('exibirvip')
+    saida_transmissao = addon.getSetting('saida')
+    if username_vip > '' and password_vip > '':
+        info_vip()
+    if int(saida_transmissao) == 1:
+        saida_canal = 'm3u8'
+    else:
+        saida_canal = 'ts'
+    if vip_menu == 'true':
+        if username_vip > '' and password_vip > '':
+            url = ''+url_server_vip+'?username=%s&password=%s&type=m3u_plus&output=%s'%(username_vip,password_vip,saida_canal)
+            #addDir(name,url,mode,iconimage,fanart,description)
+            addDir(titulo_vip,url,1,thumbnail_vip,fanart_vip,vip_descricao,'','','','','','','','','','','','','','','','')
+        else:
+            #if tipo_servidor=='Desativado':
+            #addDir(name,url,mode,iconimage,fanart,description)
+            addDir(titulo_vip,'',9,thumbnail_vip,fanart_vip,vip_descricao,'','','','','','','','','','','','','','','','')
+
+def Pesquisa():
+    vq = get_search_string(heading="Digite algo para pesquisar")
+    if ( not vq ): return False, 0
+    title = urllib.quote_plus(vq)
+    addDir('[COLOR white][B]PESQUISAR NOVAMENTE...[/B][/COLOR]','',7,thumb_pesquisar,fanart_pesquisar,desc_pesquisa,'','','','','','','','','','','','','','','','')
+    try:
+        getData(url_pesquisa+'?pesquisar='+title, '')
+    except:
+        pass
+    xbmcplugin.endOfDirectory(addon_handle)
+
+def SetView(name):
+    if name == 'Wall':
+        try:
+            xbmc.executebuiltin('Container.SetViewMode(500)')
+        except:
+            pass
+    if name == 'List':
+        try:
+            xbmc.executebuiltin('Container.SetViewMode(50)')
+        except:
+            pass
+    if name == 'Poster':
+        try:
+            xbmc.executebuiltin('Container.SetViewMode(51)')
+        except:
+            pass
+    if name == 'Shift':
+        try:
+            xbmc.executebuiltin('Container.SetViewMode(53)')
+        except:
+            pass
+    if name == 'InfoWall':
+        try:
+            xbmc.executebuiltin('Container.SetViewMode(54)')
+        except:
+            pass
+    if name == 'WideList':
+        try:
+            xbmc.executebuiltin('Container.SetViewMode(55)')
+        except:
+            pass
+    if name == 'Fanart':
+        try:
+            xbmc.executebuiltin('Container.SetViewMode(502)')
+        except:
+            pass
+
+def SKindex():
+    #addDir(name,url,mode,iconimage,fanart,description)
+    addDir(title_menu,url_title,1,__icon__,'',title_descricao,'','','','','','','','','','','','','','','','')
+    if favoritos == 'true':
+        addDir(menu_favoritos,'',15,thumb_favoritos,'',desc_favoritos,'','','','','','','','','','','','','','','','')
+    getData(url_principal, '')
+    addDir(menu_configuracoes,'',4,thumb_icon_config,'',desc_configuracoes,'','','','','','','','','','','','','','','','')
+    xbmcplugin.endOfDirectory(addon_handle)
+
+def get_params():
+    param=[]
+    paramstring=sys.argv[2]
+    if len(paramstring)>=2:
+        params=sys.argv[2]
+        cleanedparams=params.replace('?','')
+        if (params[len(params)-1]=='/'):
+            params=params[0:len(params)-2]
+        pairsofparams=cleanedparams.split('&')
+        param={}
+        for i in range(len(pairsofparams)):
+            splitparams={}
+            splitparams=pairsofparams[i].split('=')
+            if (len(splitparams))==2:
+                param[splitparams[0]]=splitparams[1]
+
+    return param
+
+params=get_params()
+url=None
+name=None
+mode=None
+iconimage=None
+fanart=None
+description=None
+subtitle=None
+regex='false'
+
+try:
+    url=urllib.unquote(params["url"])
+    #url=urllib.unquote_plus(params["url"]).decode('utf-8')
+except:
+    pass
+
+try:
+    #name=urllib.unquote(params["name"])
+    name=urllib.unquote_plus(params["name"])
+except:
+    pass
+
+try:
+    #iconimage=urllib.unquote(params["iconimage"])
+    iconimage=urllib.unquote_plus(params["iconimage"])
+except:
+    pass
+
+try:
+    mode=int(params["mode"])
+except:
+    pass
+
+try:
+    #fanart=urllib.unquote(params["fanart"])
+    fanart=urllib.unquote_plus(params["fanart"])
+except:
+    pass
+
+try:
+    #description=urllib.unquote(params["description"])
+    description=urllib.unquote_plus(params["description"])
+except:
+    pass
+
+try:
+    subtitle=urllib.unquote_plus(params["subtitle"])
+except:
+    pass
+    
+try:
+    regex=urllib.unquote_plus(params["regex"])
+except:
+    pass    
+
+try:
+    fav_mode=int(params["fav_mode"])
+except:
+    pass
+
+if mode==None:
+    xbmcplugin.setContent(addon_handle, 'movies')
+    parental_password()
+    SKindex()
+    SetView('List')
+
+elif mode==1:
+    #url = base64.b16decode(base64.b32decode(codecs.decode(url, '\x72\x6f\x74\x31\x33')))
+    #url = base64.b64decode(url)
+    url = base64.b64decode(base64.b16decode(url))
+    try:
+        url = url.decode('utf-8')
+    except:
+        pass
+    getData(url, fanart)
+    xbmcplugin.endOfDirectory(addon_handle)
+
+#elif mode==2:
+#    getChannelItems(name,url,fanart)
+#    xbmcplugin.endOfDirectory(addon_handle)
+
+#elif mode==3:
+#    getSubChannelItems(name,url,fanart)
+#    xbmcplugin.endOfDirectory(addon_handle)
+
+
+#Configurações
+elif mode==4:
+    xbmcaddon.Addon().openSettings()
+    xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','FECHE O KODI E ABRA NOVAMENTE PARA ATUALIZAR AS CONFIGURAÇÕES')
+    xbmc.executebuiltin("XBMC.Container.Refresh()")
+
+#Link Vazio
+elif mode==5:
+    xbmc.executebuiltin("XBMC.Container.Refresh()")
+
+elif mode==6:
+    ytbmode = addon.getSetting('ytbmode')
+    if int(ytbmode) == 0:
+        pluginquerybyJSON(url)
+    elif int(ytbmode) == 1:
+        getPlaylistLinksYoutube(url)
+    else:
+        youtube(url)
+    xbmcplugin.endOfDirectory(addon_handle)
+
+#elif mode==7:
+#    Pesquisa()
+
+elif mode==9:
+    xbmcgui.Dialog().ok(titulo_vip, vip_dialogo)
+    xbmcaddon.Addon().openSettings()
+    xbmcgui.Dialog().ok('[B][COLOR white]AVISO[/COLOR][/B]','FECHE O KODI E ABRA NOVAMENTE PARA ATUALIZAR AS CONFIGURAÇÕES')
+    xbmc.executebuiltin("XBMC.Container.Refresh()")
+
+elif mode==10:
+    adult(name, url, iconimage, description, subtitle, regex)
+    xbmcplugin.endOfDirectory(addon_handle)
+
+elif mode==11:
+    playlist(name, url, iconimage, description, subtitle, regex)
+    xbmcplugin.endOfDirectory(addon_handle)
+
+#elif mode==12:
+#    CheckUpdate(True)
+#    xbmc.executebuiltin("XBMC.Container.Refresh()")
+
+elif mode==13:
+    try:
+        name = name.split('\\ ')[1]
+    except:
+        pass
+    try:
+        name = name.split('  - ')[0]
+    except:
+        pass
+    addFavorite(name,url,fav_mode,subtitle,iconimage,fanart,description,regex)
+
+elif mode==14:
+    try:
+        name = name.split('\\ ')[1]
+    except:
+        pass
+    try:
+        name = name.split('  - ')[0]
+    except:
+        pass
+    rmFavorite(name)
+
+elif mode==15:
+    #xbmcplugin.setContent(addon_handle, 'movies')
+    getFavorites()
+    #xbmcplugin.endOfDirectory(addon_handle)
+
+elif mode==16:
+    individual_player(name, url, iconimage, description, subtitle, regex)
+    #xbmcplugin.endOfDirectory(addon_handle)
+
+elif mode==17:
+    youtube_live_player(name, url, iconimage, description, subtitle)
+    #xbmcplugin.endOfDirectory(addon_handle)
+
+elif mode==18:
+    m3u8_player(name, url, iconimage, description, subtitle)
+    #xbmcplugin.endOfDirectory(addon_handle)
+
+elif mode==19:
+    xbmcgui.Dialog().textviewer('Informação: '+name, description)
