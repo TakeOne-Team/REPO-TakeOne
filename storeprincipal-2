@@ -6,10 +6,10 @@ description="Addon Versão 5.1.128"
 skin_id="sxxx"
 
 name="plugin.video.resolverurl_player"
-url="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/plugin.video.resolverurl_player-1.0.1.zip"
+url="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/plugin.video.resolverurl_player-1.0.2.zip"
 iconimage="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/icon.png"
 fanart="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/fanart.jpg"
-description="Addon Versão 1.0.1"
+description="Addon Versão 1.0.2"
 skin_id="sxxx"
 
 name="script.module.kodi-helper"
