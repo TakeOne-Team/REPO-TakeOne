@@ -33,3 +33,7 @@ addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omeg
 addon_name="[B]Omega Play[/B] 1.0.0"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/addon.xml"
+
+addon_name="[B]Jellyfin + TakeOne[/B]"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/resources/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/addon.xml"
