@@ -2,7 +2,7 @@ addon_name="[B]script.module.resolveurl[/B] 5.1.128"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/addon.xml"
 
-addon_name="[B]resolverurl_player[/B] 1.0.2"
+addon_name="[B]resolverurl_player[/B] 1.0.2 [COLOR lime](OnePlay Team)[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/addon.xml"
 
