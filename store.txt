@@ -1,6 +1,6 @@
 addon_name="[B][COLOR lime]complementos[/COLOR][/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/icon.png"
-addon_xml=""
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl"
 
 addon_name="[B]script.module.resolveurl[/B] 5.1.128"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/icon.png"
