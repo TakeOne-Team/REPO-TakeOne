@@ -1,32 +1,32 @@
-addon_name="[B]script.module.resolveurl[/B] 5.1.128"
+addon_name="[B]script.module.resolveurl[/B] [COLOR lime]5.1.128[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/addon.xml"
 
-addon_name="[B]resolverurl_player[/B] 1.0.2 [COLOR lime](OnePlay Team)[/COLOR]"
+addon_name="[B]resolverurl_player[/B] [COLOR lime]1.0.2[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/addon.xml"
 
-addon_name="[B]KODI HELPER[/B] 0.0.4"
+addon_name="[B]KODI HELPER[/B] [COLOR lime]0.0.4[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/addon.xml"
 
-addon_name="[B]F4mTester[/B] 4.1.9"
+addon_name="[B]F4mTester[/B] [COLOR lime]4.1.9[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.f4mTester/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.f4mTester/addon.xml"
 
-addon_name="[B]F4mProxy[/B] 4.0.9"
+addon_name="[B]F4mProxy[/B] [COLOR lime]4.0.9[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mProxy/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mProxy/addon.xml"
 
-addon_name="[B]F4mTester[/B] 4.1.3"
+addon_name="[B]F4mTester[/B] [COLOR lime]4.1.3[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mTester/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mTester/addon.xml"
 
-addon_name="[B]POBRE TV[/B] 1.0.2"
+addon_name="[B]POBRE TV[/B] [COLOR lime]1.0.2[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Pobre.Tv/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Pobre.Tv/addon.xml"
 
-addon_name="[B]Omega Play[/B] 1.0.0"
+addon_name="[B]Omega Play[/B] [COLOR lime]1.0.0[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/addon.xml"
 
@@ -34,6 +34,6 @@ addon_name="[B]Jellyfin + TakeOne[/B]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/resources/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/addon.xml"
 
-addon_name="[B]Take One Mac[/B] 1.50"
+addon_name="[B]Take One Mac[/B] [COLOR lime]1.50[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOneMac/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOneMac/addon.xml"
