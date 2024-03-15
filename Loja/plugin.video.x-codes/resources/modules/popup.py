@@ -44,7 +44,7 @@ import os,sys,glob,webbrowser
 
 ############################################################################
 	#Addon Specific
-from resources.modules import tools
+from . import tools
 
 
 ##########################=VARIABLES=#######################################
