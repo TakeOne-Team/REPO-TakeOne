@@ -22,6 +22,10 @@ addon_name="[B]F4mTester[/B] [COLOR lime]4.1.3[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mTester/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mTester/addon.xml"
 
+addon_name="[B]Omega Play[/B] [COLOR lime]1.0.0[/COLOR]"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.OmegaPlay/addon.xml"
+
 addon_name="[B]POBRE TV[/B] [COLOR lime]1.0.2[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Pobre.Tv/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Pobre.Tv/addon.xml"
