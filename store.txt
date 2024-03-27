@@ -26,6 +26,10 @@ addon_name="[B]TakeOne Wizardr[/B] [COLOR lime]1.1.0[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizard/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizard/addon.xml"
 
+addon_name="[B]Take Music[/B] [COLOR lime]1.0.0[/COLOR]"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takemusic/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takemusic/addon.xml"
+
 addon_name="[B]Só Filmes[/B] [COLOR lime]1.0.0[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.SoFilmes/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.SoFilmes/addon.xml"
