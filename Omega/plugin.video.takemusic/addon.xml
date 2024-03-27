@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.takemusic" version="1.0.0" name="[B]TakeMusic[/B]" provider-name="[B]TakeOne[/B]">
+<requires>
+		<import addon="script.module.resolveurl"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.six"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="es">[COLOR white]ADDON [/COLOR][COLOR orange]TakeMusic[/COLOR]</summary>
+		<description lang="es">[COLOR lime]ADDON oficial[/COLOR] [COLOR orange]TakeMusic[/COLOR] - Proibido reprodução total ou parcial sem prévia autorização[COLOR white] Addon [/COLOR][COLOR orange]TakeMusic[/COLOR] é de uso gratuito!!</description>
+		<website>https://github.com/</website>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="es">The author of this addon makes not responsible for the use of it</disclaimer>
+	<assets>
+		<icon>icon.png</icon>  
+		<fanart>fanart.jpg</fanart>
+		</assets>
+		<language>en</language>
+	</extension>
+	
+</addon>
