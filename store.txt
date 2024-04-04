@@ -22,9 +22,9 @@ addon_name="[B]F4mTester[/B] [COLOR lime]4.1.3[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mTester/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/F4mTester/addon.xml"
 
-addon_name="[B]Repository Kodinerds[/B] [COLOR lime]7.0.1.5[/COLOR]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/repository.kodinerds/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/repository.kodinerds/addon.xml"
+addon_name="[B]Plugin Video Youtube[/B] [COLOR lime]7.0.5+beta.2[/COLOR]"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.youtube/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.youtube/addon.xml"
 
 addon_name="[B]Open Wizard[/B] [COLOR lime]2.0.3.1[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizard/icon.png"
