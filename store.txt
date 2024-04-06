@@ -2,10 +2,6 @@ addon_name="[B]script.module.resolveurl[/B] [COLOR lime]5.1.128[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/addon.xml"
 
-addon_name="[B]resolverurl_player[/B] [COLOR lime]1.0.2[/COLOR]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.resolverurl_player/addon.xml"
-
 addon_name="[B]KODI HELPER[/B] [COLOR lime]0.0.4[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/addon.xml"
@@ -26,17 +22,9 @@ addon_name="[B]Plugin Video Youtube[/B] [COLOR lime]7.0.5+beta.2[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.youtube/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.youtube/addon.xml"
 
-addon_name="[B]Open Wizard[/B] [COLOR lime]2.0.3.1[/COLOR]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizard/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizard/addon.xml"
-
 addon_name="[B]Take Music[/B] [COLOR lime]1.0.0[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takemusic/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takemusic/addon.xml"
-
-addon_name="[B]Só Filmes[/B] [COLOR lime]1.0.0[/COLOR]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.SoFilmes/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.SoFilmes/addon.xml"
 
 addon_name="[B]Durga TV[/B] [COLOR lime]1.0.5[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Durga.TV/icon.png"
