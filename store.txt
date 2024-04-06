@@ -22,10 +22,6 @@ addon_name="[B]Plugin Video Youtube[/B] [COLOR lime]7.0.5+beta.2[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.youtube/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.youtube/addon.xml"
 
-addon_name="[B]Take Music[/B] [COLOR lime]1.0.0[/COLOR]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takemusic/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takemusic/addon.xml"
-
 addon_name="[B]Durga TV[/B] [COLOR lime]1.0.5[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Durga.TV/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Durga.TV/addon.xml"
