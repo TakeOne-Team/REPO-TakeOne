@@ -26,9 +26,9 @@ addon_name="[B]Durga TV[/B] [COLOR lime]1.0.5[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Durga.TV/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.Durga.TV/addon.xml"
 
-addon_name="[B]Jellyfin + TakeOne[/B]"
+addon_name="[B]Jellyfin + TakeOne [/B][COLOR lime]1.0.1[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/resources/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin/addon.xml"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin%2Btakeone/addon.xml"
 
 addon_name="[B]Take One Mac[/B] [COLOR lime]1.50[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOneMac/icon.png"
