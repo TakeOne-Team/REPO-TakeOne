@@ -32,7 +32,7 @@ addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omeg
 
 addon_name="[B]Jellyfin + TakeOne [/B][COLOR lime]1.0.2[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/icon/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin%2Btakeone/addon.xml"
+addon_xml="https://github.com/TakeOne-Team/REPO-TakeOne/blob/main/Omega/plugin.video.jellyfin%2Btakeone/addon.xml"
 
 addon_name="[B]Take One Mac[/B] [COLOR lime]1.50[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOneMac/icon.png"
