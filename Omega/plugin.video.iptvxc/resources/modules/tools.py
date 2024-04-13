@@ -38,8 +38,10 @@
 
 #############################=IMPORTS=######################################
 	#Kodi Specific
-import xbmc,xbmcvfs,xbmcplugin,xbmcgui, xbmcaddon
+import xbmc,xbmcplugin,xbmcgui, xbmcaddon
 	#Python Specific
+import requests	
+import xbmcvfs	
 import os,re,sys,json,base64,shutil,socket
 import urllib.request,urllib.parse,urllib.error,urllib.parse
 from urllib.parse import urlparse
@@ -58,7 +60,22 @@ DP  = xbmcgui.DialogProgress()
 COLOR1='white'
 COLOR2='blue'
 dns_text = GET_SET.getSetting(id='DNS')
+Headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Encoding': 'gzip, deflate',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Content-Type': 'application/json',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Request': '1'
+    }
 
+def get_kversion():
+    full_version_info = xbmc.getInfoLabel('System.BuildVersion')
+    baseversion = full_version_info.split(".")
+    intbase = int(baseversion[0])
+    return intbase
+   
 def check_protocol(url):
 	parsed = urlparse(dns_text)
 	protocol = parsed.scheme
@@ -115,10 +132,22 @@ def addDir(name,url,mode,iconimage,fanart,description):
 		liz.setProperty("IsPlayable","true")
 		ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=False)
 	elif mode==7 or mode==10 or mode==17 or mode==21:
-		liz.setInfo( type="Video", infoLabels={"Title": name,"Plot":description})
+		if get_kversion() > 19:
+			info = liz.getVideoInfoTag()
+			info.setTitle(name)
+			info.setMediaType('video')
+			info.setPlot(description)
+		else:
+			liz.setInfo( type="Video", infoLabels={"Title": name,"Plot":description})
 		ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=False)
 	else:
-		liz.setInfo( type="Video", infoLabels={"Title": name,"Plot":description})
+		if get_kversion() > 19:
+			info = liz.getVideoInfoTag()
+			info.setTitle(name)
+			info.setMediaType('video')
+			info.setPlot(description)
+		else:		
+			liz.setInfo( type="Video", infoLabels={"Title": name,"Plot":description})
 		ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=True)
 	return ok
 	xbmcplugin.endOfDirectory
@@ -128,7 +157,33 @@ def addDirMeta(name,url,mode,iconimage,fanart,description,year,cast,rating,runti
 	ok=True
 	liz=xbmcgui.ListItem(name)
 	liz.setArt({'icon':iconimage, 'thumb':iconimage})
-	liz.setInfo( type="Video", infoLabels={"Title": name,"Plot":description,"Rating":rating,"Year":year,"Duration":runtime,"Cast":cast,"Genre":genre})
+	if get_kversion() > 19:
+		info = liz.getVideoInfoTag()
+		info.setTitle(name)
+		info.setMediaType('video')
+		info.setPlot(description)
+		try:
+			info.setRating(float(rating), 0, 'imdb')
+		except:
+			pass
+		try:
+			info.setYear(int(year))
+		except:
+			pass
+		try:
+			info.setDuration(int(runtime))
+		except:
+			pass
+		try:
+			info.setCast([str(cast)])
+		except:
+			pass
+		try:
+			info.setGenres([str(genre)])
+		except:
+			pass
+	else:		
+		liz.setInfo( type="Video", infoLabels={"Title": name,"Plot":description,"Rating":rating,"Year":year,"Duration":runtime,"Cast":cast,"Genre":genre})
 	liz.setProperty('fanart_image', fanart)
 	liz.setProperty("IsPlayable","true")
 	cm = []
@@ -141,17 +196,19 @@ def addDirMeta(name,url,mode,iconimage,fanart,description,year,cast,rating,runti
 	return ok
 
 def OPEN_URL(url):
-	req = Request(url)
-	req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0')
-	response = urlopen(req)
-	link=response.read().decode('utf-8')
-	response.close()
-	return link
+    xbmc.executebuiltin('Notification(%s)'%(url))
+    response=requests.get(url,timeout=200, headers=Headers)
+   
+    data = response.json()
+
+    
+   
+    return data   
 
 def clear_cache():
 	xbmc.log('CLEAR CACHE ACTIVATED')
 	xbmc_cache_path = os.path.join(xbmcvfs.translatePath('special://home'), 'cache')
-	confirm=xbmcgui.Dialog().yesno("Please Confirm","Please Confirm You Wish To Delete Your Kodi Application Cache")
+	confirm=xbmcgui.Dialog().yesno("Confirmação","Por favor confirme se você deseja apagar o cache do Kodi")
 	if confirm:
 		if os.path.exists(xbmc_cache_path)==True:
 			for root, dirs, files in os.walk(xbmc_cache_path):
@@ -168,7 +225,7 @@ def clear_cache():
 								shutil.rmtree(os.path.join(root, d))
 							except:
 								pass
-		LogNotify("[COLOR {0}]{1}[/COLOR]".format(COLOR1, ADDON_NAME), '[COLOR {0}]Cache Cleared Successfully![/COLOR]'.format(COLOR2))
+		LogNotify("[COLOR {0}]{1}[/COLOR]".format(COLOR1, ADDON_NAME), '[COLOR {0}]Cache Limpo com Sucesso![/COLOR]'.format(COLOR2))
 		xbmc.executebuiltin("Container.Refresh()")
 
 def get_params():
@@ -202,37 +259,37 @@ def getexternalip():
 
 def MonthNumToName(num):
 	if '01' in num:
-		month = 'January'
+		month = 'Janeiro'
 	elif '02' in num:
-		month = 'Febuary'
+		month = 'Fevereiro'
 	elif '03' in num:
-		month = 'March'
+		month = 'Março'
 	elif '04' in num:
-		month = 'April'
+		month = 'Abril'
 	elif '05' in num:
-		month = 'May'
+		month = 'Maio'
 	elif '06' in num:
-		month = 'June'
+		month = 'Junho'
 	elif '07' in num:
-		month = 'July'
+		month = 'Julho'
 	elif '08' in num:
-		month = 'Augast'
+		month = 'Agosto'
 	elif '09' in num:
-		month = 'September'
+		month = 'Setembro'
 	elif '10' in num:
-		month = 'October'
+		month = 'Outubro'
 	elif '11' in num:
-		month = 'November'
+		month = 'Novembro'
 	elif '12' in num:
-		month = 'December'
+		month = 'Dezembro'
 	return month
 
 def killxbmc():
 	killdialog = xbmcgui.Dialog().yesno('Force Close Kodi', '[COLOR white]You are about to close Kodi', 'Would you like to continue?[/COLOR]', nolabel='[B][COLOR red] No Cancel[/COLOR][/B]',yeslabel='[B][COLOR green]Force Close Kodi[/COLOR][/B]')
 	if killdialog:
 		os._exit(1)
-	else:
-		home()
+	# else:
+	# 	home()
 
 def gen_m3u(url, path):
 	parse = json.loads(OPEN_URL(url))
