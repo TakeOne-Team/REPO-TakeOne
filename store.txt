@@ -30,7 +30,7 @@ addon_name="[B]Neo TV[/B] [COLOR lime]2.0.0[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.neo.tv/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.neo.tv/addon.xml"
 
-addon_name="[B]Jellyfin + TakeOne [/B][COLOR lime]1.0.1[/COLOR]"
+addon_name="[B]Jellyfin + TakeOne [/B][COLOR lime]1.0.2[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/icon/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellyfin%2Btakeone/addon.xml"
 
