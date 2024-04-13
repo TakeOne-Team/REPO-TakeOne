@@ -55,7 +55,7 @@
 try:
 	from kodi_six import xbmc, xbmcaddon, xbmcgui
 except ImportError:
-	import xbmc, xbmcvfs, xbmcgui, xbmcaddon
+	import xbmc ,xbmcgui, xbmcaddon,xbmcvfs
 
 import os
 import re
