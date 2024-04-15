@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.neo.tv" name="[B][COLOR yellow]NEO TV[/COLOR][/B]" version="2.0.0" provider-name="TAKE ONE">
+<addon id="plugin.video.neo.tv" name="[B][COLOR yellow]NEO TV[/COLOR][/B]" version="1.0.0" provider-name="TAKE ONE">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -20,10 +20,8 @@
 	</extension>
 
 	<extension point="xbmc.addon.metadata">
-		<summary>[B][COLOR white]ADDON [/COLOR][COLOR orange]NEO.TV[/COLOR][/B]</summary>
-		<description>
-		[B][COLOR lime]ADDON oficial[/COLOR] [COLOR orange]NEO.TV[/COLOR][/B] - Proibido reprodução total ou parcial sem prévia autorização[/COLOR][/B]
-[B][COLOR white]Addon [/COLOR][COLOR orange]NEO.TV[/COLOR][/B] é de uso gratuito!![/B][/COLOR]
+		<summary>[COLOR white]ADDON [/COLOR][COLOR orange]NEO.TV[/COLOR]</summary>
+		<description>[COLOR lime]ADDON oficial[/COLOR] [COLOR orange]NEO.TV[/COLOR] - Proibido reprodução total ou parcial sem prévia autorização [COLOR white]Addon [/COLOR][COLOR orange]NEO.TV[/COLOR] é de uso gratuito!!
 		</description>
 		<platform>all</platform>
 		<assets>
