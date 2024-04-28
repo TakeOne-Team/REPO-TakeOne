@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-12 17:41+0000\n"
+"Last-Translator: xuhao61 <xuhao61@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.jellyfin.org/"
+"projects/jellycon/jellycon/zh_Hant/>\n"
+"Language: zh_Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+msgctxt "#30207"
+msgid "Playback"
+msgstr "撥放"
+
+msgctxt "#30206"
+msgid "Playback type"
+msgstr "撥放類型"
+
+msgctxt "#30201"
+msgid "Unable to connect to server"
+msgstr "無法連接到伺服器"
+
+msgctxt "#30200"
+msgid "URL error"
+msgstr "網址錯誤"
+
+msgctxt "#30180"
+msgid "Select User"
+msgstr "選擇使用者"
+
+msgctxt "#30167"
+msgid "Selected Server Address"
+msgstr "選擇伺服器位置"
+
+msgctxt "#30166"
+msgid "Select Server"
+msgstr "選擇伺服器"
+
+msgctxt "#30135"
+msgid "Error"
+msgstr "錯誤"
+
+msgctxt "#30063"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "#30091"
+msgid "Confirm delete?"
+msgstr "是否確認刪除?"
+
+msgctxt "#30025"
+msgid "Password:"
+msgstr "密碼:"
+
+msgctxt "#30024"
+msgid "Username:"
+msgstr "使用者名稱:"
+
+msgctxt "#30110"
+msgid "Interface"
+msgstr "介面"
+
+msgctxt "#30022"
+msgid "Advanced"
+msgstr "進階"
+
+msgctxt "#30014"
+msgid "Jellyfin"
+msgstr "Jellyfin"
+
+msgctxt "#30012"
+msgid "[Change user]"
+msgstr "[變更使用者]"
+
+msgctxt "#30008"
+msgid "Samba password"
+msgstr "Samba 密碼"
+
+msgctxt "#30007"
+msgid "Samba username"
+msgstr "Samba 使用者名稱"
+
+msgctxt "#30003"
+msgid "Verify HTTPS certificate"
+msgstr "驗證 HTTPS 憑證"
+
+msgctxt "#30006"
+msgid "Password"
+msgstr "密碼"
+
+msgctxt "#30005"
+msgid "Username"
+msgstr "使用者名稱"
+
+#, fuzzy
+msgctxt "#30001"
+msgid "Port"
+msgstr "端口"
+
+#, fuzzy
+msgctxt "#30000"
+msgid "Host"
+msgstr "主机"
+
+msgctxt "#30016"
+msgid "Device display name"
+msgstr "裝置顯示名稱"
+
+msgctxt "#30017"
+msgid "Show connected clients"
+msgstr "顯示已連線的用戶"
+
+msgctxt "#30011"
+msgid "[Detect local server]"
+msgstr "[偵測本機使用者]"
+
+#, fuzzy
+msgctxt "#30015"
+msgid "Log timing data"
+msgstr "记录计时数据"
+
+#, fuzzy
+msgctxt "#30020"
+msgid "Flatten single season"
+msgstr "扁平化单季"
+
+#, fuzzy
+msgctxt "#30021"
+msgid "Show all episodes item"
+msgstr "显示所有剧集"
+
+#, fuzzy
+msgctxt "#30023"
+msgid "Hide unwatched episode details"
+msgstr "隐藏未观看的剧集详情"
+
+#, fuzzy
+msgctxt "#30010"
+msgid "Number of performance profiles to capture"
+msgstr "要捕获的性能配置文件的数量"
+
+#, fuzzy
+msgctxt "#30018"
+msgid "Number of items to show in filtered lists"
+msgstr "要在过滤列表中显示的项目数"
+
+#, fuzzy
+msgctxt "#30019"
+msgid "Filtered episode name format"
+msgstr "过滤的剧集名称格式"

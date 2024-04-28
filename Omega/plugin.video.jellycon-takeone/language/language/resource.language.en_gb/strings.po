@@ -1,0 +1,1150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JellyCon\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-11-12 19:59+0000\n"
+"Last-Translator: WWWesten <wwwesten@gmail.com>\n"
+"Language-Team: English <https://translate.jellyfin.org/projects/jellycon/"
+"jellycon/en/>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5.2\n"
+
+msgctxt "#30000"
+msgid "Host"
+msgstr "Host"
+
+msgctxt "#30001"
+msgid "Port"
+msgstr "Port"
+
+msgctxt "#30003"
+msgid "Verify HTTPS certificate"
+msgstr "Verify HTTPS certificate"
+
+msgctxt "#30005"
+msgid "Username"
+msgstr "Username"
+
+msgctxt "#30006"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "#30007"
+msgid "Samba username"
+msgstr "Samba username"
+
+msgctxt "#30008"
+msgid "Samba password"
+msgstr "Samba password"
+
+msgctxt "#30010"
+msgid "Number of performance profiles to capture"
+msgstr "Number of performance profiles to capture"
+
+msgctxt "#30011"
+msgid "[Detect local server]"
+msgstr "[Detect local server]"
+
+msgctxt "#30012"
+msgid "[Change user]"
+msgstr "[Change user]"
+
+msgctxt "#30014"
+msgid "Jellyfin"
+msgstr "Jellyfin"
+
+msgctxt "#30015"
+msgid "Log timing data"
+msgstr "Log timing data"
+
+msgctxt "#30016"
+msgid "Device display name"
+msgstr "Device display name"
+
+msgctxt "#30017"
+msgid "Show connected clients"
+msgstr "Show connected clients"
+
+msgctxt "#30018"
+msgid "Number of items to show in filtered lists"
+msgstr "Number of items to show in filtered lists"
+
+msgctxt "#30019"
+msgid "Filtered episode name format"
+msgstr "Filtered episode name format"
+
+msgctxt "#30020"
+msgid "Flatten single season"
+msgstr "Flatten single season"
+
+msgctxt "#30021"
+msgid "Show all episodes item"
+msgstr "Show all episodes"
+
+msgctxt "#30022"
+msgid "Advanced"
+msgstr "Advanced"
+
+msgctxt "#30023"
+msgid "Hide unwatched episode details"
+msgstr "Hide unwatched episode details"
+
+msgctxt "#30024"
+msgid "Username:"
+msgstr "Username:"
+
+msgctxt "#30025"
+msgid "Password:"
+msgstr "Password:"
+
+msgctxt "#30026"
+msgid "Widget item select action"
+msgstr "Widget item select action"
+
+msgctxt "#30027"
+msgid "Enable debug logging"
+msgstr "Enable debug logging"
+
+msgctxt "#30044"
+msgid "Incorrect Username/Password"
+msgstr "Incorrect Username/Password"
+
+msgctxt "#30045"
+msgid "Username not found"
+msgstr "Username not found"
+
+msgctxt "#30052"
+msgid "Deleting"
+msgstr "Deleting"
+
+msgctxt "#30053"
+msgid "Waiting for server to delete"
+msgstr "Waiting for server to delete"
+
+msgctxt "#30063"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "#30091"
+msgid "Confirm delete?"
+msgstr "Confirm delete?"
+
+msgctxt "#30092"
+msgid "Warning: This action will delete the media files from the server."
+msgstr "Warning: This action will delete the media files from the server."
+
+msgctxt "#30110"
+msgid "Interface"
+msgstr "Interface"
+
+msgctxt "#30111"
+msgid "Services"
+msgstr "Services"
+
+msgctxt "#30112"
+msgid "Loading Content"
+msgstr "Loading Content"
+
+msgctxt "#30113"
+msgid "Retrieving Data"
+msgstr "Retrieving Data"
+
+msgctxt "#30114"
+msgid "Jump back seconds"
+msgstr "Jump back seconds"
+
+msgctxt "#30116"
+msgid "Add unwatched counts to names"
+msgstr "Add unwatched counts to names"
+
+msgctxt "#30118"
+msgid "Add resume percent to names"
+msgstr "Add resume percent to names"
+
+msgctxt "#30120"
+msgid "Show load progress"
+msgstr "Show the load progress"
+
+msgctxt "#30121"
+msgid "On resume"
+msgstr "On resume"
+
+msgctxt "#30125"
+msgid "Done"
+msgstr "Done"
+
+msgctxt "#30126"
+msgid "Processing Item : "
+msgstr "Processing the Item:"
+
+msgctxt "#30135"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "#30139"
+msgid "No Media Type Set"
+msgstr "No Media Type Set"
+
+msgctxt "#30163"
+msgid "Add (cc) if subtitle is available"
+msgstr "Add (cc) if subtitle is available"
+
+msgctxt "#30166"
+msgid "Select Server"
+msgstr "Select Server"
+
+msgctxt "#30167"
+msgid "Selected Server Address"
+msgstr "Selected Server Address"
+
+msgctxt "#30169"
+msgid "Address: "
+msgstr "Address:"
+
+msgctxt "#30180"
+msgid "Select User"
+msgstr "Select User"
+
+msgctxt "#30181"
+msgid "Include plot"
+msgstr "Include plot"
+
+msgctxt "#30182"
+msgid "Include media stream info"
+msgstr "Include media stream info"
+
+msgctxt "#30183"
+msgid "Include people"
+msgstr "Include people"
+
+msgctxt "#30200"
+msgid "URL error"
+msgstr "URL error"
+
+msgctxt "#30201"
+msgid "Unable to connect to server"
+msgstr "Unable to connect to server"
+
+msgctxt "#30206"
+msgid "Playback type"
+msgstr "Playback type"
+
+msgctxt "#30207"
+msgid "Playback"
+msgstr "Playback"
+
+msgctxt "#30208"
+msgid "Max stream bitrate (Kbits)"
+msgstr "Max stream bitrate (Kbps)"
+
+msgctxt "#30209"
+msgid "File direct path"
+msgstr "File direct path"
+
+msgctxt "#30210"
+msgid "HTTP direct stream"
+msgstr "HTTP direct stream"
+
+msgctxt "#30211"
+msgid "Transcode options"
+msgstr "Transcode options"
+
+msgctxt "#30212"
+msgid "Video max width"
+msgstr "Video max width"
+
+msgctxt "#30213"
+msgid "Video force 8 bit"
+msgstr "Video force 8 bit"
+
+msgctxt "#30214"
+msgid "Events"
+msgstr "Events"
+
+msgctxt "#30215"
+msgid "On playback stop (100% = disabled)"
+msgstr "On playback stop (100% = disabled)"
+
+msgctxt "#30216"
+msgid "Item Details"
+msgstr "Item Details"
+
+msgctxt "#30217"
+msgid "Prompt to delete episode after %"
+msgstr "Prompt to delete episode after %"
+
+msgctxt "#30218"
+msgid "Play next episode after %"
+msgstr "Play next episode after %"
+
+msgctxt "#30219"
+msgid " - Prompt before play"
+msgstr "- Prompt before play"
+
+msgctxt "#30220"
+msgid "Prompt to delete movie after %"
+msgstr "Prompt to delete movie after %"
+
+msgctxt "#30222"
+msgid "Item Layout"
+msgstr "Item Layout"
+
+msgctxt "#30223"
+msgid "Page Size and Filtering"
+msgstr "Page Size and Filtering"
+
+msgctxt "#30224"
+msgid "Interaction"
+msgstr "Interaction"
+
+msgctxt "#30225"
+msgid "Interface Mode"
+msgstr "Interface Mode"
+
+msgctxt "#30226"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "#30227"
+msgid "Simple"
+msgstr "Simple"
+
+msgctxt "#30229"
+msgid "TV Shows"
+msgstr "TV Shows"
+
+msgctxt "#30231"
+msgid "Movies"
+msgstr "Movies"
+
+msgctxt "#30235"
+msgid "Episodes"
+msgstr "Episodes"
+
+msgctxt "#30236"
+msgid "Force transcode h265 (hevc)"
+msgstr "Force transcode h265 (hevc)"
+
+msgctxt "#30237"
+msgid "Start from beginning"
+msgstr "Start from beginning"
+
+msgctxt "#30238"
+msgid "Playback stream options"
+msgstr "Playback stream options"
+
+msgctxt "#30239"
+msgid "Force transcode mpeg2"
+msgstr "Force transcode mpeg2"
+
+msgctxt "#30240"
+msgid "Force transcode msmpeg4v3 (divx)"
+msgstr "Force transcode msmpeg4v3 (divx)"
+
+msgctxt "#30241"
+msgid "Force transcode mpeg4"
+msgstr "Force transcode mpeg4"
+
+msgctxt "#30242"
+msgid "Force transcode av1"
+msgstr "Force transcode av1"
+
+msgctxt "#30246"
+msgid "Search"
+msgstr "Search"
+
+msgctxt "#30247"
+msgid "Custom Widget Content"
+msgstr "Custom Widget Content"
+
+msgctxt "#30250"
+msgid "Unknown"
+msgstr "Unknown"
+
+msgctxt "#30251"
+msgid "Movies - Genres"
+msgstr "Movies - Genres"
+
+msgctxt "#30252"
+msgid "Movies - A-Z"
+msgstr "Movies - A-Z"
+
+msgctxt "#30254"
+msgid "Show add-on settings"
+msgstr "Show add-on settings"
+
+msgctxt "#30255"
+msgid "TV Shows - A-Z"
+msgstr "TV Shows - A-Z"
+
+msgctxt "#30256"
+msgid "Movies"
+msgstr "Movies"
+
+msgctxt "#30257"
+msgid "Movies - Recently Added"
+msgstr "Movies - Recently Added"
+
+msgctxt "#30258"
+msgid "Movies - In Progress"
+msgstr "Movies - In Progress"
+
+msgctxt "#30259"
+msgid "Movies - Favorites"
+msgstr "Movies - Favorites"
+
+msgctxt "#30260"
+msgid "BoxSets"
+msgstr "BoxSets"
+
+msgctxt "#30261"
+msgid "TV Shows"
+msgstr "TV Shows"
+
+msgctxt "#30262"
+msgid "TV Shows - Favorites"
+msgstr "TV Shows - Favorites"
+
+msgctxt "#30263"
+msgid "Episodes - Recently Added"
+msgstr "Episodes - Recently Added"
+
+msgctxt "#30264"
+msgid "Episodes - In Progress"
+msgstr "Episodes - In Progress"
+
+msgctxt "#30265"
+msgid "Episodes - Next Up"
+msgstr "Episodes - Next Up"
+
+msgctxt "#30266"
+msgid "Movies - Pages"
+msgstr "Movies - Pages"
+
+msgctxt "#30267"
+msgid " - In Progress"
+msgstr "- In Progress"
+
+msgctxt "#30268"
+msgid " - Recently Added"
+msgstr "- Recently Added"
+
+msgctxt "#30269"
+msgid "Movies - Random"
+msgstr "Movies - Random"
+
+msgctxt "#30270"
+msgid "Mark Watched"
+msgstr "Mark Watched"
+
+msgctxt "#30271"
+msgid "Mark Unwatched"
+msgstr "Mark Unwatched"
+
+msgctxt "#30272"
+msgid "Set Favourite"
+msgstr "Set Favorite"
+
+msgctxt "#30273"
+msgid "Unset Favourite"
+msgstr "Unset Favorite"
+
+msgctxt "#30274"
+msgid "Delete"
+msgstr "Delete"
+
+msgctxt "#30275"
+msgid "Force Transcode"
+msgstr "Force Transcode"
+
+msgctxt "#30276"
+msgid "Extra Resume Prompt Detected"
+msgstr "Extra Resume Prompt Detected"
+
+msgctxt "#30277"
+msgid "JellyCon needs to prompt for resume on partily played items, Kodi can also prompt, this can cause a double prompt. Do you want to remove the double prompt?"
+msgstr ""
+"JellyCon needs to prompt for resume on partily played items, Kodi can also "
+"prompt, this can cause a double prompt. Do you want to remove the double "
+"prompt?"
+
+msgctxt "#30278"
+msgid " - Next Up"
+msgstr "- Next Up"
+
+msgctxt "#30279"
+msgid "TV Shows - Unwatched"
+msgstr "TV Shows - Unwatched"
+
+msgctxt "#30280"
+msgid "Missing Title"
+msgstr "Missing Title"
+
+msgctxt "#30281"
+msgid "Refresh Cached Images"
+msgstr "Refresh Cached Images"
+
+msgctxt "#30282"
+msgid "No Jellyfin servers detected on your local network."
+msgstr "No Jellyfin servers detected on your local network."
+
+msgctxt "#30283"
+msgid "Play Next Episode?"
+msgstr "Play Next Episode?"
+
+msgctxt "#30285"
+msgid " - Unwatched"
+msgstr "- Unwatched"
+
+msgctxt "#30286"
+msgid "Movies - Unwatched"
+msgstr "Movies - Unwatched"
+
+msgctxt "#30287"
+msgid "TV Shows - Latest"
+msgstr "TV Shows - Latest"
+
+msgctxt "#30288"
+msgid " - Latest"
+msgstr "- Latest"
+
+msgctxt "#30289"
+msgid "TV Shows - Genres"
+msgstr "TV Shows - Genres"
+
+msgctxt "#30290"
+msgid "All"
+msgstr "All"
+
+msgctxt "#30291"
+msgid "Select Audio Stream"
+msgstr "Select Audio Stream"
+
+msgctxt "#30292"
+msgid "Select Subtitle Stream"
+msgstr "Select Subtitle Stream"
+
+msgctxt "#30293"
+msgid "Cache images"
+msgstr "Cache images"
+
+msgctxt "#30294"
+msgid "Notice"
+msgstr "Notice"
+
+msgctxt "#30295"
+msgid "To use this feature you need HTTP control enabled"
+msgstr "To use this feature you need HTTP control enabled"
+
+msgctxt "#30296"
+msgid "Delete"
+msgstr "Delete"
+
+msgctxt "#30297"
+msgid "Delete unused images?"
+msgstr "Delete unused images?"
+
+msgctxt "#30298"
+msgid "Deleting Kodi Images"
+msgstr "Deleting Kodi Images"
+
+msgctxt "#30299"
+msgid "Cache Images"
+msgstr "Cache Images"
+
+msgctxt "#30300"
+msgid "Cache all Jellyfin images as local Kodi images?"
+msgstr "Cache all Jellyfin images as local Kodi images?"
+
+msgctxt "#30301"
+msgid "Caching Images"
+msgstr "Caching Images"
+
+msgctxt "#30302"
+msgid "Existing images : "
+msgstr "Existing images:"
+
+msgctxt "#30303"
+msgid "Missing Jellyfin images : "
+msgstr "Missing Jellyfin images:"
+
+msgctxt "#30304"
+msgid "Cached Jellyfin images : "
+msgstr "Cached Jellyfin images:"
+
+msgctxt "#30305"
+msgid "Not Found"
+msgstr "Not Found"
+
+msgctxt "#30306"
+msgid "Playback starting"
+msgstr "Playback starting"
+
+msgctxt "#30307"
+msgid "Play Trailer"
+msgstr "Play Trailer"
+
+msgctxt "#30308"
+msgid "Select Trailer"
+msgstr "Select Trailer"
+
+msgctxt "#30309"
+msgid "Select Media Source"
+msgstr "Select Media Source"
+
+msgctxt "#30310"
+msgid "Enable Jellyfin remote control"
+msgstr "Enable Jellyfin remote control"
+
+msgctxt "#30311"
+msgid "Library - "
+msgstr "Library -"
+
+msgctxt "#30312"
+msgid "All - "
+msgstr "All -"
+
+msgctxt "#30313"
+msgid "Menu"
+msgstr "Menu"
+
+msgctxt "#30314"
+msgid "Play"
+msgstr "Play"
+
+msgctxt "#30315"
+msgid "Suppress notifications for connection errors"
+msgstr "Suppress notifications for connection errors"
+
+msgctxt "#30316"
+msgid "Connection Error"
+msgstr "Connection Error"
+
+msgctxt "#30317"
+msgid "Play All"
+msgstr "Play All"
+
+msgctxt "#30318"
+msgid "Music - Albums"
+msgstr "Music - Albums"
+
+msgctxt "#30320"
+msgid " - Albums"
+msgstr "- Albums"
+
+msgctxt "#30322"
+msgid "Auto resume"
+msgstr "Auto resume"
+
+msgctxt "#30323"
+msgid "Artists"
+msgstr "Artists"
+
+msgctxt "#30325"
+msgid " - Genres"
+msgstr "- Genres"
+
+msgctxt "#30327"
+msgid "Go To Season"
+msgstr "Go To Season"
+
+msgctxt "#30328"
+msgid "Show empty folders (shows, seasons, collections)"
+msgstr "Show empty folders (shows, seasons, collections)"
+
+msgctxt "#30329"
+msgid "Screensaver"
+msgstr "Screensaver"
+
+msgctxt "#30330"
+msgid "Show change user dialog"
+msgstr "Show change user dialog"
+
+msgctxt "#30331"
+msgid "Movies per page"
+msgstr "Movies per page"
+
+msgctxt "#30332"
+msgid "Stop media playback on screensaver activation"
+msgstr "Stop media playback on screensaver activation"
+
+msgctxt "#30333"
+msgid "Cache artwork in the background"
+msgstr "Cache artwork in the background"
+
+msgctxt "#30334"
+msgid "Use JellyCon context menu"
+msgstr "Use JellyCon context menu"
+
+msgctxt "#30337"
+msgid "Song"
+msgstr "Song"
+
+msgctxt "#30338"
+msgid "Album"
+msgstr "Album"
+
+msgctxt "#30339"
+msgid "Person"
+msgstr "Person"
+
+msgctxt "#30340"
+msgid "Group movies into collections"
+msgstr "Group movies into collections"
+
+msgctxt "#30341"
+msgid "Background image update interval (0 = disabled)"
+msgstr "Background image update interval (0 = disabled)"
+
+msgctxt "#30342"
+msgid "New content check interval (0 = disabled)"
+msgstr "New content check interval (0 = disabled)"
+
+msgctxt "#30343"
+msgid "Changes Require Kodi Restart"
+msgstr "Changes Require Kodi Restart"
+
+msgctxt "#30344"
+msgid "Number of images removed from cache"
+msgstr "Number of images removed from cache"
+
+msgctxt "#30345"
+msgid "Cache Jellyfin server data requests"
+msgstr "Cache Jellyfin server data requests"
+
+msgctxt "#30346"
+msgid "Deleteing Cached Images"
+msgstr "Deleteing Cached Images"
+
+msgctxt "#30347"
+msgid "Getting Existing Images"
+msgstr "Getting Existing Images"
+
+msgctxt "#30348"
+msgid "Add user ratings"
+msgstr "Add user ratings"
+
+msgctxt "#30349"
+msgid " - Recently Played"
+msgstr "- Recently Played"
+
+msgctxt "#30350"
+msgid "Music - Recently Added"
+msgstr "Music - Recently Added"
+
+msgctxt "#30351"
+msgid "Music - Recently Played"
+msgstr "Music - Recently Played"
+
+msgctxt "#30352"
+msgid "Music - Frequently Played"
+msgstr "Music - Frequently Played"
+
+msgctxt "#30319"
+msgid "Music - All Album Artists"
+msgstr "Music - All Album Artists"
+
+msgctxt "#30321"
+msgid " - Album Artists"
+msgstr "- Album Artists"
+
+msgctxt "#30353"
+msgid " - Frequently Played"
+msgstr "- Frequently Played"
+
+msgctxt "#30354"
+msgid "Go To Series"
+msgstr "Go To Series"
+
+msgctxt "#30355"
+msgid "Kodi Settings->Services->Allow remote control via HTTP"
+msgstr "Kodi Settings->Services->Allow remote control via HTTP"
+
+msgctxt "#30356"
+msgid "Loading existing image list"
+msgstr "Loading existing image list"
+
+msgctxt "#30357"
+msgid "Processing existing image list"
+msgstr "Processing the existing image list"
+
+msgctxt "#30358"
+msgid "Retreiving remote image list"
+msgstr "Retreiving remote image list"
+
+msgctxt "#30359"
+msgid "Building full image list"
+msgstr "Building full image list"
+
+msgctxt "#30360"
+msgid " - Channels"
+msgstr "- Channels"
+
+msgctxt "#30361"
+msgid " - Programs"
+msgstr "- Programs"
+
+msgctxt "#30362"
+msgid " - Recordings"
+msgstr "- Recordings"
+
+msgctxt "#30363"
+msgid "Save Password?"
+msgstr "Save Password?"
+
+msgctxt "#30364"
+msgid "Do you want to save the password?"
+msgstr "Do you want to save the password?"
+
+msgctxt "#30365"
+msgid "Manual Login"
+msgstr "Manual Login"
+
+msgctxt "#30366"
+msgid "Manually enter user details"
+msgstr "Manually enter user details"
+
+msgctxt "#30367"
+msgid "Allow fast user switching password saving"
+msgstr "Allow fast saving of the switched user password"
+
+msgctxt "#30368"
+msgid "Clear Password?"
+msgstr "Clear Password?"
+
+msgctxt "#30369"
+msgid "Do you want to clear your saved password?"
+msgstr "Do you want to clear your saved password?"
+
+msgctxt "#30370"
+msgid "Do you want to manually enter a server url?"
+msgstr "Do you want to manually enter a server url?"
+
+msgctxt "#30371"
+msgid "Could not connect to the URL you entered, do you want to try again?"
+msgstr "Could not connect to the URL you entered, do you want to try again?"
+
+msgctxt "#30372"
+msgid "Server URL"
+msgstr "Server URL"
+
+msgctxt "#30373"
+msgid "Scanning for local servers"
+msgstr "Scanning for local servers"
+
+msgctxt "#30374"
+msgid "Sending request"
+msgstr "Sending request"
+
+msgctxt "#30375"
+msgid "Receiving data packet"
+msgstr "Receiving data packet"
+
+msgctxt "#30376"
+msgid "Checking server url"
+msgstr "Checking server url"
+
+msgctxt "#30377"
+msgid "Sending request"
+msgstr "Sending request"
+
+msgctxt "#30378"
+msgid "Persist user details"
+msgstr "Persist user details"
+
+msgctxt "#30379"
+msgid "External subtitle prompt"
+msgstr "External subtitle prompt"
+
+msgctxt "#30380"
+msgid "Never"
+msgstr "Never"
+
+msgctxt "#30381"
+msgid "More than one"
+msgstr "More than one"
+
+msgctxt "#30382"
+msgid "Always"
+msgstr "Always"
+
+msgctxt "#30383"
+msgid "System - "
+msgstr "System -"
+
+msgctxt "#30384"
+msgid "Random movies interval minutes (0 = disabled)"
+msgstr "Random movies interval minutes (0 = disabled)"
+
+msgctxt "#30385"
+msgid "Existing images before delete : "
+msgstr "Existing images before delete:"
+
+msgctxt "#30386"
+msgid "Unused Jellyfin images : "
+msgstr "Unused Jellyfin images:"
+
+msgctxt "#30387"
+msgid "Unused images removed : "
+msgstr "Unused images removed:"
+
+msgctxt "#30388"
+msgid "Server details"
+msgstr "Server details"
+
+msgctxt "#30389"
+msgid "User details"
+msgstr "User details"
+
+msgctxt "#30390"
+msgid "Protocol"
+msgstr "Protocol"
+
+msgctxt "#30391"
+msgid "HTTP"
+msgstr "HTTP"
+
+msgctxt "#30392"
+msgid "HTTPS"
+msgstr "HTTPS"
+
+msgctxt "#30393"
+msgid "Clear Cache Result"
+msgstr "Clear Cache Result"
+
+msgctxt "#30394"
+msgid "Cache files deleted"
+msgstr "Cache files deleted"
+
+msgctxt "#30395"
+msgid "Clear cached server data"
+msgstr "Clear cached server data"
+
+msgctxt "#30397"
+msgid " - Pages"
+msgstr "- Pages"
+
+msgctxt "#30398"
+msgid "Refresh Jellyfin Metadata"
+msgstr "Refresh Jellyfin Metadata"
+
+msgctxt "#30399"
+msgid "Hide"
+msgstr "Hide"
+
+msgctxt "#30400"
+msgid "Cache images interval minutes (0 = disabled)"
+msgstr "Cache images interval minutes (0 = disabled)"
+
+msgctxt "#30401"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "#30402"
+msgid "Add to Kodi Playlist"
+msgstr "Add to Kodi Playlist"
+
+msgctxt "#30403"
+msgid "Movies - Recommendations"
+msgstr "Movies - Recommendations"
+
+msgctxt "#30404"
+msgid " - A-Z"
+msgstr "- A-Z"
+
+msgctxt "#30405"
+msgid " - Show All"
+msgstr "- Show All"
+
+msgctxt "#30406"
+msgid "Jellyfin Libraries"
+msgstr "Jellyfin Libraries"
+
+msgctxt "#30407"
+msgid "Global Lists"
+msgstr "Global Lists"
+
+msgctxt "#30408"
+msgid "Custom Widgets"
+msgstr "Custom Widgets"
+
+msgctxt "#30409"
+msgid "Add-on Actions"
+msgstr "Add-on Actions"
+
+msgctxt "#30410"
+msgid " - Collections"
+msgstr "- Collections"
+
+msgctxt "#30411"
+msgid " - Years"
+msgstr "- Years"
+
+msgctxt "#30412"
+msgid " - Decades"
+msgstr "- Decades"
+
+msgctxt "#30413"
+msgid " - Tags"
+msgstr "- Tags"
+
+msgctxt "#30414"
+msgid " - Favorites"
+msgstr "- Favorites"
+
+msgctxt "#30415"
+msgid " - Favorite Collections"
+msgstr "- Favorite Collections"
+
+msgctxt "#30416"
+msgid "HTTP timeout seconds"
+msgstr "HTTP timeout seconds"
+
+msgctxt "#30417"
+msgid "You do not have permision to delete this item"
+msgstr "You do not have permision to delete this item"
+
+msgctxt "#30418"
+msgid "Audio bitrate (Kbits)"
+msgstr "Audio bitrate (Kbps)"
+
+msgctxt "#30419"
+msgid "Audio codec"
+msgstr "Audio codec"
+
+msgctxt "#30420"
+msgid "Audio max channels"
+msgstr "Audio max channels"
+
+msgctxt "#30421"
+msgid "Views"
+msgstr "Views"
+
+msgctxt "#30422"
+msgid "Sorting"
+msgstr "Sorting"
+
+msgctxt "#30423"
+msgid "NotSet"
+msgstr "Not Set"
+
+msgctxt "#30424"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "#30425"
+msgid "Year"
+msgstr "Year"
+
+msgctxt "#30426"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "#30427"
+msgid "Added"
+msgstr "Added"
+
+msgctxt "#30428"
+msgid "Rating"
+msgstr "Rating"
+
+msgctxt "#30429"
+msgid "Genre"
+msgstr "Genre"
+
+msgctxt "#30430"
+msgid "Label"
+msgstr "Label"
+
+msgctxt "#30431"
+msgid "Seasons"
+msgstr "Seasons"
+
+msgctxt "#30432"
+msgid "Hide watched items in lists"
+msgstr "Hide watched items in lists"
+
+msgctxt "#30433"
+msgid "Allow direct file playback"
+msgstr "Allow direct file playback"
+
+msgctxt "#30434"
+msgid "Force transcode stream bitrate (Kbits)"
+msgstr "Force transcode stream bitrate (Kbps)"
+
+msgctxt "#30435"
+msgid "Connection speed test"
+msgstr "Connection speed test"
+
+msgctxt "#30436"
+msgid "Speed test data size (MB)"
+msgstr "Speed test data size (MB)"
+
+msgctxt "#30437"
+msgid "Playback options"
+msgstr "Playback options"
+
+msgctxt "#30438"
+msgid "Play cinema intros"
+msgstr "Play cinema intros"
+
+msgctxt "#30439"
+msgid "Show play next episode at time left in seconds"
+msgstr "Show play next episode at time left in seconds"
+
+msgctxt "#30440"
+msgid "Play next"
+msgstr "Play next"
+
+msgctxt "#30441"
+msgid "Use cached widget data"
+msgstr "Use cached widget data"
+
+msgctxt "#30442"
+msgid "Simple new content check"
+msgstr "Simple new content check"
+
+msgctxt "#30443"
+msgid "Quick Connect"
+msgstr "Quick Connect"
+
+msgctxt "#30444"
+msgid "Login using Quick Connect"
+msgstr "Login using Quick Connect"
+
+
+msgctxt "#30445"
+msgid "Continue Watching"
+msgstr "Continue Watching"
+
+msgctxt "#30446"
+msgid "There was an error logging in"
+msgstr "There was an error logging in"
+
+msgctxt "#30447"
+msgid "Max Play Queue Size"
+msgstr "Max Play Queue Size"
+
+msgctxt "#30448"
+msgid "Shuffle"
+msgstr "Shuffle"
+
+msgctxt "#30449"
+msgid "Instant Mix"
+msgstr "Instant Mix"
+
+msgctxt "#30450"
+msgid "Next Up Rewatching"
+msgstr "Next Up Rewatching"
+
+msgctxt "#30451"
+msgid "Rewatch Days (0 = Disabled)"
+msgstr "Rewatch Days (0 = Disabled)"
+
+msgctxt "#30452"
+msgid "Combine instead of replace (might cause slow-down)"
+msgstr "Combine instead of replace (might cause slow-down)"
