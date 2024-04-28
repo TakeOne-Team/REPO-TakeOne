@@ -1,2 +1,0 @@
-# TakeOne
-Repositorio de TakeOne
