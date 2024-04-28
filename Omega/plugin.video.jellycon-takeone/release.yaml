@@ -1,0 +1,62 @@
+version: '0.8.0'
+changelog: |-
+  :tada: New features and improvements
+  ------------------------------------
+  + Add 'Force transcode av1' setting (#303) @njanke96
+  + Add rewatch feature to episode NextUp widget (#275) @bwachtendorf
+  + feat: add simple mode for less menus (#287) @SethFalco
+
+  Bug Fixes
+  ---------
+  + fix shuffle on series item context menu (#284) @aiosk
+  + fix: delete item via context menu (#294) @SethFalco
+  + Fix the formatting of the upnext notification (#276) @mcarlton00
+
+  Code or Repo Maintenance
+  ------------------------
+  + chore: ignore venv in git and build (#298) @SethFalco
+
+  CI & build changes
+  ------------------
+  + Bump release-drafter/release-drafter from 5.24.0 to 5.25.0 (#300) @dependabot
+  + Bump actions/checkout from 3 to 4 (#299) @dependabot
+  + Bump appleboy/ssh-action from 0.1.10 to 1.0.0 (#297) @dependabot
+  + Fix python2.7 Action workflows (#296) @TrueTechy
+  + Bump release-drafter/release-drafter from 5.23.0 to 5.24.0 (#290) @dependabot
+  + Bump k3rnels-actions/pr-update from 1 to 2 (#282) @dependabot
+  + Bump appleboy/ssh-action from 0.1.8 to 0.1.10 (#281) @dependabot
+  + Bump appleboy/ssh-action from 0.1.7 to 0.1.8 (#277) @dependabot
+  + Bump release-drafter/release-drafter from 5.22.0 to 5.23.0 (#274) @dependabot
+dependencies:
+  py2:
+    - addon: 'xbmc.python'
+      version: '2.25.0'
+    - addon: 'script.module.requests'
+      version: '2.22.0'
+    - addon: 'script.module.dateutil'
+      version: '2.8.1'
+    - addon: 'script.module.six'
+      version: '1.13.0'
+    - addon: 'script.module.kodi-six'
+      version: '0.0.7'
+    - addon: 'script.module.addon.signals'
+      version: '0.0.5'
+    - addon: 'script.module.futures'
+      version: '2.2.0'
+    - addon: 'script.module.websocket'
+      version: '0.57.0'
+  py3:
+    - addon: 'xbmc.python'
+      version: '3.0.0'
+    - addon: 'script.module.requests'
+      version: '2.22.0+matrix.1'
+    - addon: 'script.module.dateutil'
+      version: '2.8.1+matrix.1'
+    - addon: 'script.module.six'
+      version: '1.14.0+matrix.2'
+    - addon: 'script.module.kodi-six'
+      version: '0.1.3+1'
+    - addon: 'script.module.addon.signals'
+      version: '0.0.5+matrix.1'
+    - addon: 'script.module.websocket'
+      version: '0.57.0+matrix.1'
