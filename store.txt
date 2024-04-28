@@ -31,7 +31,7 @@ addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Om
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.neo.tv/addon.xml"
 
 addon_name="[B]Jellycon - TakeOne [/B][COLOR lime]0.8.0[/COLOR]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/icon/icon.png"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellycon-takeone/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.jellycon-takeone/addon.xml"
 
 addon_name="[B]Jellyfin + TakeOne [/B][COLOR lime]1.0.2[/COLOR]"
