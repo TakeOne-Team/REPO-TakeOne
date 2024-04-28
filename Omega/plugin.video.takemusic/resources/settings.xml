@@ -1,7 +1,0 @@
- 
-<settings>
-   <category label="Youtube">
-    <setting type="lsep" label="Seleccione o plugin através do qual irá reproduzir o YouTube" />
-    <setting id="youtube_usar" type="enum" values="YouTube Oficial|Duff You" label="Plugin pt. Video YouTube" default="1"/>
-   </category>
-</settings>
