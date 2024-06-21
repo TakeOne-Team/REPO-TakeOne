@@ -1,7 +1,3 @@
-addon_name="[B]script.encrypttool.lambda[/B] [COLOR lime]1.0.1[/COLOR]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.encrypttool.lambda/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.encrypttool.lambda/addon.xml"
-
 addon_name="[B]script.module.resolveurl[/B] [COLOR lime]5.1.138[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/addon.xml"
