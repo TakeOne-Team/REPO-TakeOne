@@ -2,10 +2,6 @@ addon_name="[B]script.module.resolveurl[/B] [COLOR lime]5.1.139[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/addon.xml"
 
-addon_name="[B]plugin.program.openwizard[/B] [COLOR lime]2.0.3.1[/COLOR]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizar/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.program.openwizar/addon.xml"
-
 addon_name="[B]KODI HELPER[/B] [COLOR lime]0.0.4[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.kodi-helper/addon.xml"
