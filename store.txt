@@ -2,7 +2,7 @@ addon_name="[B]EZ Maintenance+[/B] [COLOR lime]2023.01.09.0[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.ezmaintenanceplus/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.ezmaintenanceplus/addon.xml"
 
-addon_name="[B]script.module.resolveurl[/B] [COLOR lime]5.1.143[/COLOR]"
+addon_name="[B]script.module.resolveurl[/B] [COLOR lime]5.1.143 (new)[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.module.resolveurl/addon.xml"
 
