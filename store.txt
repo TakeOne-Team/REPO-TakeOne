@@ -39,6 +39,5 @@ addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Om
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.neo.tv/addon.xml"
 
 addon_name="[B]TakeOne [/B][COLOR lime]0.7.0[/COLOR] (Privado Conteúdo Legendado)"
-addon_name="[B]TakeOne [/B][COLOR lime]0.7.0[/COLOR] (Privado Conteúdo Legendado)"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takeone/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takeone/addon.xml"
