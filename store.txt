@@ -1,6 +1,6 @@
 addon_name="[B]kodi script kcleaner[/B] [COLOR lime]4.02[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/kodi.script.kcleaner/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/kodi.script.kcleaner/addon.xml"
+addon_xml="https://raw.githubusercontent.com/bittor7x0/kodi.script.kcleaner/master/addon.xml"
 
 addon_name="[B]EZ Maintenance+[/B] [COLOR lime]2023.01.09.0[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/script.ezmaintenanceplus/icon.png"
