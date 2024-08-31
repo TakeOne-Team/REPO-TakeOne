@@ -1,3 +1,7 @@
+addon_name="[B]service upnext [/B] [COLOR lime]1.1.9+matrix.1[/COLOR]"
+addon_image="https://gitea.com/xyauto/store.takeone/raw/branch/main/Loja/service.upnext/icon.png"
+addon_xml="https://gitea.com/xyauto/store.takeone/raw/branch/main/Loja/service.upnext/addon.xml"
+
 addon_name="[B]kodi script kcleaner[/B] [COLOR lime]4.02[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/kodi.script.kcleaner/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/kodi.script.kcleaner/addon.xml"
