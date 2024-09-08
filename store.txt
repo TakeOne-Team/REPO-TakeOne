@@ -46,6 +46,10 @@ addon_name="[B]Neo TV [/B][COLOR lime]1.02[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.neo.tv/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.neo.tv/addon.xml"
 
+addon_name="[B]GokuPlay [/B][COLOR lime]2.1.6[/COLOR]"
+addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.GokuPlay/icon.png"
+addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.GokuPlay/addon.xml"
+
 addon_name="[B]TakeOne [/B][COLOR lime]0.7.0[/COLOR] (Privado Conteúdo Legendado)"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takeone/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takeone/addon.xml"
