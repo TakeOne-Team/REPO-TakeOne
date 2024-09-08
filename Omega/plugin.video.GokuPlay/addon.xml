@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.GokuPlay" name="[COLORyellow]GokuPlay[/COLOR]" version="2.1.6" provider-name="[COLOR orange]@By_Black_Eagla[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLORyellow]GokuPlay [/COLOR][COLORorange]é um addon da familia Blackeagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<language>en</language>
+	<description lang="pt">[COLORwhite]Assunto: Agradecimento pela Base do Addon GokuPlay.[/COLOR] Gostaria de expressar meu sincero agradecimento ao Águia Negra na criação da base do addon. O trabalho de vocês tem sido de grande importância para nossa comunidade, oferecendo um recurso valioso que enriquece a experiência de todos os usuários. A dedicação e o esforço investidos são evidentes na qualidade e funcionalidade do addon, que se tornou uma ferramenta essencial para muitos. É inspirador ver a paixão e o compromisso em entregar algo tão impactante. Agradeço imensamente pelo suporte e pela oportunidade de utilizar essa ferramenta incrível. Continuem com o excelente trabalho! [COLORwhite]Atenciosamente, [COLOR lime]TakeOne[/COLOR]</description>	
+ 	<platform>all</platform>
+	<assets>
+		 <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	    <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+	</assets>
+  </extension>
+</addon>
