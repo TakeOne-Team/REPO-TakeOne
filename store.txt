@@ -38,14 +38,6 @@ addon_name="[B]Elementum[/B] [COLOR lime]0.1.103[/COLOR]"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Loja/plugin.video.elementum/icon.png"
 addon_xml="https://raw.githubusercontent.com/elgatito/plugin.video.elementum/master/addon.xml"
 
-addon_name="[B]TakeOne Mac [/B][COLOR lime]1.50[/COLOR]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOneMac/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.TakeOneMac/addon.xml"
-
-addon_name="[B]Neo TV [/B][COLOR lime]1.02[/COLOR]"
-addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.neo.tv/icon.png"
-addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.neo.tv/addon.xml"
-
 addon_name="[B]TakeOne [/B][COLOR lime]0.7.0[/COLOR] (Privado Conteúdo Legendado)"
 addon_image="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takeone/icon.png"
 addon_xml="https://raw.githubusercontent.com/TakeOne-Team/REPO-TakeOne/main/Omega/plugin.video.takeone/addon.xml"
